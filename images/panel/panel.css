@@ -1,0 +1,227 @@
+/* Settings Panel, just for Demo purposes */
+/*----------------------------------------*/
+.settings,
+.settings-button {
+  background-color: #fff;
+  border: 1px solid #50beaa;
+  border-right: none;
+  -webkit-box-shadow: 0 0 10px rgba(70, 74, 82, 0.36);
+  -moz-box-shadow: 0 0 10px rgba(70, 74, 82, 0.36);
+  box-shadow: 0 0 10px rgba(70, 74, 82, 0.36);
+}
+.settings {
+  position: fixed;
+  top: 75px;
+  right: -244px;
+  z-index: 9999;
+  width: 240px;
+  padding: 0 15px 15px;
+  -webkit-transition: right 0.6s cubic-bezier(0.8, 0.2, 0.1, 1);
+  -moz-transition: right 0.6s cubic-bezier(0.8, 0.2, 0.1, 1);
+  -o-transition: right 0.6s cubic-bezier(0.8, 0.2, 0.1, 1);
+  -ms-transition: right 0.6s cubic-bezier(0.8, 0.2, 0.1, 1);
+  transition: right 0.6s cubic-bezier(0.8, 0.2, 0.1, 1);
+}
+.settings .settings-button {
+  position: absolute;
+  top: -1px;
+  right: 100%;
+  width: 48px;
+  height: 48px;
+  font-size: 36px;
+  line-height: 48px;
+  color: #464A52;
+  text-align: center;
+}
+.settings .settings-button:hover,
+.settings .settings-button:focus,
+.settings .settings-button:active {
+  background-color: #fff;
+}
+.settings .settings-button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -10px;
+  bottom: -10px;
+  width: 10px;
+  background-color: #fff;
+}
+.settings.active {
+  right: 0;
+}
+.settings.active .settings-button i {
+  -webkit-animation-name: spin;
+  animation-name: spin;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-direction: normal;
+  animation-direction: normal;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.settings .title {
+  font-size: 17px;
+  margin: 1em 0 .6em;
+}
+.settings .checkbox,
+.settings .radio {
+  margin-bottom: 8px;
+}
+.settings .checkbox label,
+.settings .radio label {
+  font-size: 12px;
+  padding-left: 24px;
+  line-height: 18px;
+}
+.settings .checkbox label:before,
+.settings .radio label:before {
+  border-color: #50beaa;
+}
+.settings .checkbox label.checked,
+.settings .radio label.checked {
+  color: #50beaa;
+}
+.settings .checkbox label.checked:after,
+.settings .radio label.checked:after {
+  background-color: #50beaa;
+}
+.settings .checkbox label:hover,
+.settings .radio label:hover,
+.settings .checkbox label:focus,
+.settings .radio label:focus,
+.settings .checkbox label:active,
+.settings .radio label:active {
+  color: #50beaa;
+}
+.settings .radiolist li {
+  margin-bottom: 5px;
+}
+.settings .radiolist li a {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 18px;
+  color: #464A52;
+  padding-left: 24px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.settings .radiolist li a:before,
+.settings .radiolist li a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #50beaa;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.settings .radiolist li a:after {
+  top: 5px;
+  left: 5px;
+  width: 8px;
+  height: 8px;
+  border: none;
+  background-color: transparent;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.settings .radiolist li a:hover,
+.settings .radiolist li a:focus,
+.settings .radiolist li a:active {
+  color: #50beaa;
+}
+.settings .radiolist li.active a {
+  color: #50beaa;
+}
+.settings .radiolist li.active a:after {
+  background-color: #50beaa;
+}
+.settings .colors li {
+  float: left;
+  margin: 1px;
+}
+.settings .colors li a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 50px;
+  height: 32px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.settings .colors li a:before,
+.settings .colors li a:after {
+  content: '';
+  width: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #50beaa;
+}
+.settings .colors li a:after {
+  left: 25px;
+  background-color: #2e77ea;
+}
+.settings .colors li a[data-color='blue-red']:before {
+  background-color: #72a5e6;
+}
+.settings .colors li a[data-color='blue-red']:after {
+  background-color: #ea4c4f;
+}
+.settings .colors li a[data-color='cyan-brown']:before {
+  background-color: #008b8b;
+}
+.settings .colors li a[data-color='cyan-brown']:after {
+  background-color: #915335;
+}
+.settings .colors li a[data-color='turquoise-yellow']:before {
+  background-color: #32D8C8;
+}
+.settings .colors li a[data-color='turquoise-yellow']:after {
+  background-color: #fdba4f;
+}
+.settings .colors li a:hover,
+.settings .colors li a:focus,
+.settings .colors li a:active {
+  -webkit-opacity: 0.6;
+  -moz-opacity: 0.6;
+  opacity: 0.6;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+  filter: alpha(opacity=60);
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+/*# sourceMappingURL=panel.css.map */

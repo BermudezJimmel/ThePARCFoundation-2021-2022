@@ -1,0 +1,3190 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html lang="en" class="no-js oldie"><![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"><!--<![endif]-->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WPWGNL');</script>
+<!-- End Google Tag Manager -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Parc Foundation</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<!-- Core CSS -->
+	<link href="images/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="images/style.css" media="screen" rel="stylesheet" type="text/css">
+	<!-- FontAwesome.css -->
+	<link href="images/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+	<!-- Animate.css -->
+	<link href="images/css/animate.css" media="screen" rel="stylesheet" type="text/css">
+	<!-- Settings Panel, just for Demo purposes -->
+	<link href="images/panel/panel.css" media="screen" rel="stylesheet" type="text/css">
+	<link id="color-scheme" href="#" media="screen" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+	<!-- Modernizr Library -->
+	<script src="images/js/libs/modernizr.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css">
+  
+	<style>
+		
+
+
+.small {
+  font-size: 11px;
+  color: #999;
+  display: block;
+  margin-top: -10px
+}
+
+.cont {
+  text-align: center;
+}
+
+.page-head {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.page-head .lead {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #152836;
+}
+
+.btn-primary {
+  background-color: #152836;
+  border-color: #0e1a24;
+  color: #ffffff;
+}
+
+.btn-primary {
+  border-color: #eeeeee;
+  color: #eeeeee;
+  transition: color 0.1s ease 0s, background-color 0.15s ease 0s;
+}
+
+.page-head h1 {
+  font-size: 42px;
+  margin: 0 0 20px;
+  color: #FFF;
+  position: relative;
+  display: inline-block;
+}
+
+.page-head h1 .version {
+  bottom: 0;
+  color: #ddd;
+  font-size: 11px;
+  font-style: italic;
+  position: absolute;
+  width: 58px;
+  right: -58px;
+}
+
+.demo-gallery > ul {
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+.demo-gallery > ul > li {
+  margin-bottom: 15px;
+  width: 180px;
+  display: inline-block;
+  margin-right: 15px;
+  list-style: outside none none;
+}
+
+.demo-gallery > ul > li a {
+  border: 3px solid #FFF;
+  border-radius: 3px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+.demo-gallery > ul > li a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+}
+
+.demo-gallery > ul > li a:hover > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+  opacity: 1;
+}
+
+.demo-gallery > ul > li a .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+}
+
+.demo-gallery > ul > li a .demo-gallery-poster > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+
+.demo-gallery > ul > li a:hover .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.demo-gallery .justified-gallery > a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+}
+
+.demo-gallery .justified-gallery > a:hover > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+  opacity: 1;
+}
+
+.demo-gallery .justified-gallery > a .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+}
+
+.demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+
+.demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.demo-gallery .video .demo-gallery-poster img {
+  height: 48px;
+  margin-left: -24px;
+  margin-top: -24px;
+  opacity: 0.8;
+  width: 48px;
+}
+
+.demo-gallery.dark > ul > li a {
+  border: 3px solid #04070a;
+}
+	</style>
+
+
+	<style>
+		.modal {
+ 
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  padding: 1em;
+}
+
+@media (min-width: 43.75em) {
+  .modal {
+    padding: 1.5em;
+  }
+}
+
+.modal > label {
+  background: #FFD300;
+  border: 1px solid #f0c600;
+  border-radius: .2em;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  top: 600px;
+  font-weight: bold;
+  padding: 0.75em 1.5em;
+  text-shadow: 1px 1px 1px #fff;
+  transition: all 0.55s;
+}
+
+.modal > label:hover {
+  transform: scale(0.97);
+}
+
+.modal__overlay {
+  background: #000000;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  text-shadow: none;
+  top: 0;
+  z-index: 600;
+}
+
+.modal__wrap {
+  padding: 1em 0;
+  position: relative;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 90%;
+}
+
+@media (min-width: 50em) {
+  .modal__wrap {
+    padding: 1.75em;
+  }
+}
+
+@media (min-height: 37.5em) {
+  .modal__wrap {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -80%);
+  }
+}
+
+.modal__wrap label {
+  background: #FFD300;
+  border-radius: 50%;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  height: 1.5em;
+  line-height: 1.5;
+  position: absolute;
+  right: .5em;
+  top: .5em;
+  width: 1.5em;
+}
+
+.modal__wrap h2 {
+  color: #FFD300;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.modal__wrap p {
+  color: #FFD300;
+  text-align: justify;
+}
+
+.modal input:focus ~ label {
+  transform: scale(0.97);
+}
+
+input {
+  position: relative;
+  top: -1000px;
+}
+
+
+.modal__overlay {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.75s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: -100;
+}
+
+input:checked ~ .modal__overlay {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 800;
+}
+	</style>
+
+
+<style>
+	.chevron {
+	margin-top: -150px;
+  margin-left: 1780px;	
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  animation: move 3s ease-out infinite;
+}
+
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #fff;
+}
+
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) ;
+  }
+}
+
+.text {
+  display: block;
+  position: relative;
+  margin-top: -50px;
+  margin-left: 1750px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .25;
+  animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}
+
+scroll-behavior: smooth;
+</style>
+
+<style>
+
+
+/* Modal Content */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header{
+     background-color:#ec7f23;
+}
+.modal-content {
+    overflow:hidden;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #ec7f23;
+    color: white;
+}
+}
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+ .btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #f6d365 0%, #fff 51%, #f6d365 100%);
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 15%;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+</style>
+
+
+
+</head>
+<body data-spy="scroll" data-target="#navigation">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPWGNL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<a class="logo invisible" href="index.html"><img src="images/images/logoparc.png" alt=""/></a>
+	<!-- Header -->
+	<header id="header" class="header">
+		<!-- Main Slider -->
+		<div id="main-slider" class="main-header carousel slide invisible">
+			<!-- Carousel items -->
+			<div class="carousel-inner">
+				<section class="active item parallax overlay" data-image="images/images/temp/welcome2.jpg" style="height: 662px;">
+					<div class="carousel-desc">
+						<div class="page-title-before" data-animate-in="fadeInLeft" data-animate-out="fadeOutRight" style="font-size: 50px">WELCOME TO PERFORMING ARTS</div>
+						<div class="page-title-before" data-animate-in="zoomIn" data-animate-out="zoomOut" style="font-size: 50px">AND RECREATION CENTER</div>
+						<div class="page-title-before" data-animate-in="fadeInRight" data-animate-out="fadeOutLeft" style="font-size: 50px">FOUNDATION</div>
+						
+						<a href="#about" data-animate-in="fadeInUp" data-animate-out="fadeOutDown" style="background: #FFD300;
+						  border: 1px solid #f0c600;
+						  border-radius: .2em;
+						  color: #000000;
+						  cursor: pointer;
+						  display: inline-block;
+						  position: relative;
+						  top: 50px;
+						  font-weight: bold;
+						  padding: 0.75em 1.5em;
+						  text-shadow: 1px 1px 1px #fff;
+						  transition: all 0.55s;">Learn More</a>
+					</div>
+				</section>
+				<section class="item parallax overlay" data-image="images/images/temp/b2.jpg" >
+					<div class="carousel-desc">
+						<div class="page-title-before" data-animate-in="fadeInLeft" data-animate-out="fadeOutRight" style="font-size: 60px">FIND A HOME</div>
+						
+						<div class="page-title-before" data-animate-in="fadeInRight" data-animate-out="fadeOutLeft" style="font-size: 60px">FOR YOUR PASSION</div>
+						<a href="images/spaces.html" target="_blank"  data-animate-in="fadeInUp" data-animate-out="fadeOutDown" style="background: #FFD300;
+						  border: 1px solid #f0c600;
+						  border-radius: .2em;
+						  color: #000000;
+						  cursor: pointer;
+						  display: inline-block;
+						  position: relative;
+						  top: 50px;
+						  font-weight: bold;
+						  padding: 0.75em 1.5em;
+						  text-shadow: 1px 1px 1px #fff;
+						  transition: all 0.55s;">BOOK NOW</a>
+						  
+					</div>
+				</section>
+				<section class="item parallax overlay" data-image="images/images/temp/BG3.jpg">
+					<div class="carousel-desc">
+						<div class="page-title-before" data-animate-in="fadeInLeft" data-animate-out="fadeOutRight" style="font-size: 60px" >SUPPORT OUR</div>
+						<div class="page-title-before" data-animate-in="zoomIn" data-animate-out="zoomOut" style="font-size: 60px"><b>ADVOCACY</b></div>
+						
+			
+						<button class="modal-button btn btn-1" href="#myModal4" data-animate-in="fadeInUp" data-animate-out="fadeOutDown" style="background: #FFD300;
+						  border: 1px solid #f0c600;
+						  border-radius: .2em;
+						  color: #000000;
+						  cursor: pointer;
+						  display: inline-block;
+						  position: relative;
+						  font-weight: bold;
+						  text-shadow: 1px 1px 1px #fff;
+						  transition: all 0.55s;">Donate Now</button>
+					</div>
+				</section>
+				
+				<section class="item parallax overlay" data-image="images/images/temp/BG04.jpg">
+					<div class="carousel-desc">
+						<div class="page-title-before" data-animate-in="fadeInLeft" data-animate-out="fadeOutRight" style="font-size: 60px">KNOW WHAT'S HAPPENING</div>
+						<div class="page-title-before" data-animate-in="zoomIn" data-animate-out="zoomOut" style="font-size: 60px">AT THE <strong>PARC</strong></div>
+						
+						<a href="images/events.html"  data-animate-in="fadeInUp" data-animate-out="fadeOutDown" style="background: #FFD300;
+						  border: 1px solid #f0c600;
+						  border-radius: .2em;
+						  color: #000000;
+						  cursor: pointer;
+						  display: inline-block;
+						  position: relative;
+						  top: 50px;
+						  font-weight: bold;
+						  padding: 0.75em 1.5em;
+						  text-shadow: 1px 1px 1px #fff;
+						  transition: all 0.55s;">CLICK HERE</a>
+					</div>
+				</section>
+			</div>
+			<!-- Carousel indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#main-slider" data-slide-to="0" class="active"></li>
+				<li data-target="#main-slider" data-slide-to="1"></li>
+				<li data-target="#main-slider" data-slide-to="2"></li>
+				<li data-target="#main-slider" data-slide-to="3"></li>
+			</ol>
+			<!-- Carousel nav -->
+			<a class="carousel-control left" href="#main-slider" data-slide="prev"><i class="icon-arrow-left-alt"></i></a>
+			<a class="carousel-control right" href="#main-slider" data-slide="next"><i class="icon-arrow-right-alt"></i></a>
+
+<a class="container" href="#about">
+  <span class="chevron"></span>
+  <span class="chevron"></span>
+  <span class="chevron"></span>
+  <span class="text" >Scroll down</span>
+</a>
+		</div>
+
+	
+		<!--/ Main Slider -->
+	</header>
+	<!--/ Header -->
+	<!-- Menu -->
+	<div class="navigation-placeholder invisible">
+		<nav id="navigation" class="navigation sticky-menu">
+			<ul class="nav clearfix">
+				<li><a class="anchor" href="#main-slider">Home</a></li>
+				<li><a class="anchor" href="#about">About Us</a></li>
+				<li><a class="anchor" href="#programs">Programs</a></li>
+				<li><a class="anchor" href="images/spaces.html" target="_blank">Book A Space</a></li>
+				<li><a class="anchor" href="#events">Events</a></li>
+				<li><a class="anchor" href="#testimonials">Testimonials</a></li>
+				<li><a class="anchor" href="#support">Support Us</a></li>
+				<li><a class="anchor" href="#news">News</a></li>
+				<li><a class="anchor" href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!--/ Menu -->
+	<!-- Content -->
+	<main class="content invisible">
+		<!-- About Us -->
+		<section id="about" class="section section-gray section-about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="section-header">
+							<h2 class="section-title"><span class="scroll fadeInLeft">About </span><span class="highlight scroll fadeInRight">Us</span></h2><br>
+							
+							<div class="section-description">
+								<p style="font-size: 20px">
+									The Performing Arts and Recreation Center (PARC) Foundation is a registered,
+									non-stock, non-profit organization founded in December 2015 which is committed to
+									harnessing the power of performing arts to transform lives - especially the youth.
+									<br><br>
+
+									<center><iframe src="https://player.vimeo.com/video/393371575" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
+
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row"><hr>
+					
+					<div class="col-sm-6 col-md-1 col-lg-1"></div>
+					<div class="col-sm-12 col-md-5 col-lg-5">
+						<div class="about-item">
+							<center><img  src="images/images/vision.png" height="81" width="81"></center><br><br>
+							<h4 class="title">Our Vision</h4>
+							<div class="description">
+								<p style="font-size: 20px">
+									To spearhead the development of performing arts in the country by enabling young Filipino artists to succeed. 
+ 
+								</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-5 col-lg-5">
+						<div class="about-item">
+							<center><img  src="images/images/target.png" height="81" width="81"></center><br><br>
+							<h4 class="title">Our Mission</h4>
+							<div class="description">
+								<p style="font-size: 20px">
+									To create a sustainable ecosystem for performing arts, with PARC functioning as an open hub for artists to congregate, hone their skills, equip themselves for their future careers, and become relevant contributors to society.
+
+								</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-1 col-lg-1"></div>
+				</div>
+
+				<div class="row"><hr>
+					<div class="col-sm-6 col-md-1 col-lg-1"></div>
+					<div class="col-sm-12 col-md-5 col-lg-5">
+						<div class="about-item">
+							<center><img  src="images/images/goal.png" height="81" width="81"></center><br><br>
+							<h4 class="title">Goal</h4>
+							<div class="description">
+								<p style="font-size: 20px">
+									To create social and cultural impact through its Community Development, Artist Empowerment, and Youth Development programs.
+								</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-5 col-lg-5">
+						<div class="about-item">
+							<center><img  src="images/images/corevalues.png" height="81" width="81"></center><br><br>
+							<h4 class="title">Core Values</h4>
+							<div class="description">
+								<p style="font-size: 20px">
+									PASSION, RESILIENCE, INTEGRITY, COMMUNION, EMPATHY
+								</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-1 col-lg-1"></div>
+				</div>
+			</div>
+		
+		<!--/ About Us -->
+		<!-- Skills -->
+		
+			<div class="section-inner parallax overlay" style="background-image: url(images/images/temp/helpinghand.jpg);">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<div class="section-header">
+								<center><img class="scroll fadeInLeft" src="images/images/wimer.jpg" style="height: 240px; width: 230px"></center><br><br>
+								<h2 class="section-title"><span class="scroll fadeInLeft">“Everytime we get to help someone,</span><span class="scroll fadeInRight">it’s the best feeling in the world.”</span></h2>
+								<h5 class="section-subtitle"> Wilmer Guido (1992 - 2017), Founder</h5>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+	
+		<!--/ Skills -->
+
+			<hr>
+			<div class="container" style="margin-top: 40px;">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="section-header">
+							<h2 class="section-title"><span class="scroll fadeInLeft"> Our </span><span class="highlight scroll fadeInRight">Story</span></h2>
+							<div class="section-description">
+								<p>
+									The PARC Foundation was established as a non-stock, non-profit organization in December 2015. It was founded by Wilmer Guido, a passionate 23-year old whose dream was to put up a performing arts center to help people, especially the underprivileged youth and struggling local artists, fulfill their passions as well.<br><br>
+									Determined to achieve his dream, Wilmer formed his core team with like-minded friends Samsam Santiago and Issay Nodalo. As a first move, they repurposed an old office building into a performing arts hub. On June 1, 2016, they officially opened their doors to the public. Since then, The PARC Foundation has been a second home to numerous performing artists and groups who enjoy our creative spaces at the friendliest rates.<br><br>
+									In response to the stigma that the performing arts is only for well-off individuals, the foundation launched PARCaralan in December 2017. The aim of the program is to bring free quality arts education to some of the most talented and promising children from underserved communities near PARC.<br><br>
+									Unfortunately, it was during the same month when PARC lost its founder due to a sudden illness. But with the support of his family and the Guido Group of Companies, Wilmer’s spirit lives on and his legacy continues through The PARC Foundation and its mission to enable and support the Filipino performing arts community.<br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div><hr>
+
+				
+					<div class="col-sm-6 col-md-1"></div>
+				</div>
+			</div>
+		</section>-->
+		<!--/ Services -->
+
+
+		<!-- Team -->
+		<section id="team" class="section section-team">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="section-header">
+							<h2 class="section-title"><span class="scroll fadeInLeft">Our </span><span class="highlight scroll fadeInRight">Trustees</span></h2>
+							
+							<div class="section-description">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-md-12 col-lg-12"></div>
+					<center><p><strong>Chairman </strong><br> William T. Guido</p></center>
+					<center><p><strong>Vice Chairman</strong> <br> Francisco “Jay” Bernardo III</p></center>
+					<center><p><strong>Co-Founder & Executive Director </strong><br> Larissa “Issay” Nodalo-Gatmaitan</p></center>
+					<center><p><strong>Trustees</strong> <br> Dr. Raul Sunico <br> Maestro Rodel Colmenar <br> Jasper Evangelista <br>Alvin Kingson Tan <br>John Gan <br>Bobby Kok <br> David “Dabs” Liban Jr. <br> Edgar Saavedra <br>Antonio “Tony” Lopez
+						</p></center>
+			
+					<!--<div class="col-sm-6 col-md-2">
+						<div class="team-item">
+							<div class="image">
+								<img src="images/images/temp/wtg.jpg" alt=""/>
+							</div>
+							<div class="description">
+								<h5 class="name">Mr. William T. Guido</h5>
+								<div class="position">Chairman & CEO at Guido Group of Companies</div>
+								<div class="social-links">
+									<a href="#" class="icon-facebook"></a>
+									<a href="#" class="icon-twitter"></a>
+									<a href="#" class="icon-google"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-2">
+						<div class="team-item">
+							<div class="image">
+								<img src="images/images/temp/issay.jpg" alt=""/>
+							</div>
+							<div class="description">
+								<h5 class="name">Ms. Issay Nodalo</h5>
+								<div class="position">Co-founder & President at The PARC Foundation</div>
+								<div class="social-links">
+									<a href="#" class="icon-facebook"></a>
+									<a href="#" class="icon-twitter"></a>
+									<a href="#" class="icon-google"></a>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-2">
+						<div class="team-item">
+							<div class="image">
+								<img src="images/images/temp/raul.jpg" alt=""/>
+							</div>
+							<div class="description">
+								<h5 class="name">Dr. Raul Sunico</h5>
+								<div class="position">World-renowned pianist & former President of the Cultural Center of the Philippines</div>
+								<div class="social-links">
+									<a href="#" class="icon-facebook"></a>
+									<a href="#" class="icon-twitter"></a>
+									<a href="#" class="icon-google"></a>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-2">
+						<div class="team-item">
+							<div class="image">
+								<img src="images/images/temp/rodel.jpg" alt=""/>
+							</div>
+							<div class="description">
+								<h5 class="name">Maestro Rodel Colmenar</h5>
+								<div class="position">Founder & Music Director of the Manila Philharmonic Orchestra</div>
+								<div class="social-links">
+									<a href="#" class="icon-facebook"></a>
+									<a href="#" class="icon-twitter"></a>
+									<a href="#" class="icon-google"></a>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-2">
+						<div class="team-item">
+							<div class="image">
+								<img src="images/images/temp/jay.jpg" alt=""/>
+							</div>
+							<div class="description">
+								<h5 class="name">Prof. Jay Bernardo</h5>
+								<div class="position">Director at ACE Center for Entrepreneurship and Chairman of StartUp Village</div>
+								<div class="social-links">
+									<a href="#" class="icon-facebook"></a>
+									<a href="#" class="icon-twitter"></a>
+									<a href="#" class="icon-google"></a>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-1"></div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6 col-md-2"></div>
+					<div class="col-sm-6 col-md-2">
+						<div class="team-item">
+							<div class="image">
+								<img src="images/images/temp/jasper.jpg" alt=""/>
+							</div>
+							<div class="description">
+								<h5 class="name">Mr. Jasper Evangelista</h5>
+								<div class="position">Chief Operating Officer Globaltronics, Inc. and Former Vice President of Marketing for Solaire Resort and Casino</div>
+								<div class="social-links">
+									<a href="#" class="icon-facebook"></a>
+									<a href="#" class="icon-twitter"></a>
+									<a href="#" class="icon-google"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-2">
+						<div class="team-item">
+							<div class="image">
+								<img src="images/images/temp/issay.jpg" alt=""/>
+							</div>
+							<div class="description">
+								<h5 class="name">Ms. Luz Gatmaitan</h5>
+								<div class="position">Corporate Secretary Globaltronics, Inc. </div>
+								<div class="social-links">
+									<a href="#" class="icon-facebook"></a>
+									<a href="#" class="icon-twitter"></a>
+									<a href="#" class="icon-google"></a>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-2">
+						<div class="team-item">
+							<div class="image">
+								<img src="images/images/temp/alvin.jpg" alt=""/>
+							</div>
+							<div class="description">
+								<h5 class="name">Mr. Alvin Kingson Tan</h5>
+								<div class="position">President & CEO Fil-Chi Media Productions (Chinoy TV)</div>
+								<div class="social-links">
+									<a href="#" class="icon-facebook"></a>
+									<a href="#" class="icon-twitter"></a>
+									<a href="#" class="icon-google"></a>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-sm-6 col-md-2">
+						<div class="team-item">
+							<div class="image">
+								<img src="images/images/temp/issay.jpg" alt=""/>
+							</div>
+							<div class="description">
+								<h5 class="name">Mr. John C. Gan</h5>
+								<div class="position">Head of Product Development, Entrepreneur</div>
+								<div class="social-links">
+									<a href="#" class="icon-facebook"></a>
+									<a href="#" class="icon-twitter"></a>
+									<a href="#" class="icon-google"></a>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-1"></div>-->
+				</div>
+			</div>
+		</section><hr>
+
+		<!-- Pricing -->
+		<section id="programs" class="section section-gray section-pricing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="section-header">
+							<h2 class="section-title"><span class="highlight scroll fadeInLeft">Our</span><span class="scroll fadeInRight">Programs</span></h2>
+						
+						</div>
+					</div>
+				</div>
+				<div class="row pricing-list">
+					<div class="col-sm-6 col-md-12 col-lg-4">
+						<div class="pricing-item">
+							<h4 class="title">COMMUNITY DEVELOPMENT</h4>
+							<p>
+								We establish partnerships to create performing arts-based activities to achieve a common goal. 
+
+							</p>
+							<button class="modal-button btn btn-1" href="#myModal1">Learn More</button>
+
+					</div>
+				</div>
+
+					<div class="col-sm-6 col-md-12 col-lg-4">
+						<div class="pricing-item">
+							<h4 class="title">ARTIST EMPOWERMENT</h4>
+							<p>
+								
+								We provide striving performing artists a performing arts hub they can call home and a support group that helps them with their training / production needs and takes care of their wellness.
+							</p>
+							<button class="modal-button btn btn-1" href="#myModal2">Learn More</button>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-12 col-lg-4">
+						<div class="pricing-item">
+							<h4 class="title">YOUTH DEVELOPMENT</h4>
+							<p>
+								
+								We harness the power of performing arts to transform the lives of underprivileged children & youth through our ​flagship program ​called “​PARCaralan​.”
+
+							</p>
+							<button class="modal-button btn btn-1" href="#myModal3">Learn More</button>
+						</div>
+					</div>
+				</div><hr>
+			</div>
+			</div>
+		</section>
+		<!--/ Team -->
+		<!-- Portfolio -->
+		<section id="events" class="section section-portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="section-header">
+							<h2 class="section-title"><span class="scroll fadeInLeft">Our </span><span class="highlight scroll fadeInRight">Events</span></h2>
+							<h5 class="section-subtitle">Check it out!</h5>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="portfolio-categories hidden">
+							<ul class="clearfix">
+								<li class="active"><a href="#">All Events</a></li>
+								<li data-category="upcoming"><a href="#">Upcoming</a></li>
+								<li data-category="previous"><a href="#">Previous</a></li>
+							</ul>
+							<a href="#" class="prev icon-arrow-left"></a>
+							<a href="#" class="next icon-arrow-right"></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						 <div class="portfolio-list">
+              <div class="portfolio-item" data-category="previous ">
+                <div class="inner">
+                  <img src="/images/images/events/new event/4thPFD_FB POSTER1.jpg" alt=""/>
+                  <div class="item-info">
+                    <a href="#"></a>
+                    <div class="item-info-inner">
+                      <h4 class="title">The 4th PARC foundation day</h4>
+                      <div class="description">May 31, 2020</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+							<div class="portfolio-item" data-category="previous">
+								<div class="inner">
+									<img src="/images/images/events/new event/4thPFD_FB POSTER2.jpg" alt=""/>
+									<div class="item-info">
+										<a href="#"></a>
+										<div class="item-info-inner">
+											<h4 class="title">The 4th PARC foundation day</h4>
+											<div class="description">May 31, 2020</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio-item" data-category="previous">
+								<div class="inner">
+									<img src="/images/images/events/new event/Project Tempo_Poster.jpg" alt=""/>
+									<div class="item-info">
+										<a href="#"></a>
+										<div class="item-info-inner">
+											<h4 class="title">Project Tempo</h4>
+											<div class="description">Transition to an engaging music program online</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio-item" data-category="wordpress">
+								<div class="inner">
+									<img src="/images/images/events/new event/REISE - Mixed Voices in Manila (PARC x UP Manila Chorale).jpg" alt=""/>
+									<div class="item-info">
+										<a href="#"></a>
+										<div class="item-info-inner">
+											<h4 class="title">REISE</h4>
+											<div class="description">Mixed voices in Manila</div>
+                      <div class="description">February 25 & 27, 2020</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio-item" data-category="upcoming">
+								<div class="inner">
+									<img src="images/images/events/2020/02.27.20 REISE Mixed Voices in Manila.jpg" alt=""/>
+									<div class="item-info">
+										<a href="#"></a>
+										<div class="item-info-inner">
+											<h4 class="title">REISE Mixed Voices in Manila</h4>
+											<div class="description">February 27, 2020</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio-item" data-category="previous">
+								<div class="inner">
+									<img src="images/images/parc_cola/Copy of GoVol 2019 Poster.jpg" alt=""/>
+									<div class="item-info">
+										<a href="#"></a>
+										<div class="item-info-inner">
+											<h4 class="title">Go Volunteer 2019</h4>
+											<div class="description">Discover Yourself Through Volunteering</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio-item" data-category="upcoming">
+								<div class="inner">
+									<img src="images/images/events/2020/02.29.20 Act Avenue Theater Festival.jpg" alt=""/>
+									<div class="item-info">
+										<a href="#"></a>
+										<div class="item-info-inner">
+											<h4 class="title">Act Avenue Theater Festival</h4>
+											<div class="description">February 29, 2020</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio-item" data-category="html">
+								<div class="inner">
+									<img src="images/images/parc_cola/Copy of Lucindas Big Opening poster final.jpeg" alt=""/>
+									<div class="item-info">
+										<a href="#"></a>
+										<div class="item-info-inner">
+											<h4 class="title">Lucindas Big Opening</h4>
+											<!--<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>-->
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio-item" data-category="html">
+								<div class="inner">
+									<img src="images/images/parc_cola/Copy of May Isang Sundalo poster final.jpg" alt=""/>
+									<div class="item-info">
+										<a href="#"></a>
+										<div class="item-info-inner">
+											<h4 class="title">May Isang Sundalo</h4>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio-item" data-category="html">
+								<div class="inner">
+									<img src="images/images/parc_cola/Copy of Spring Awakening blueREP Main Poster.png" alt=""/>
+									<div class="item-info">
+										<a href="#"></a>
+										<div class="item-info-inner">
+											<h4 class="title">Spring Awakening</h4>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio-item" data-category="upcoming">
+								<div class="inner">
+									<img src="images/images/events/2020/03.19.20 PARCners_ Night 2020 Vision.jpg" alt=""/>
+									<div class="item-info">
+										<a href="#"></a>
+										<div class="item-info-inner">
+											<h4 class="title">PARCners Night 2020 Vision</h4>
+											<div class="description">March 19, 2020</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio-item" data-category="html">
+								<div class="inner">
+									<img src="images/images/parc_cola/Image.jpeg" alt=""/>
+									<div class="item-info">
+										<a href="#"></a>
+										<div class="item-info-inner">
+											<h4 class="title">Improve Sandwich</h4>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="images/events.html" target="_blank "class="btn btn-lg">Full View of Events</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ Portfolio -->
+		
+		
+		<!--/ Pricing -->
+		<!-- Testimonials -->
+		<section id="testimonials" class="section no-padding section-testimonials">
+			<div class="section-inner parallax overlay" style="background-image: url(images/images/testimonials11.jpg);">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<div class="section-header">
+								<h2 class="section-title"><span class="scroll fadeInLeft">TESTIMONIALS </span><span class="highlight scroll fadeInRight"></span></h2>
+								
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="testimonials-slider hidden">
+								<ul>
+									<li>
+										<div class="avatar"><img src="images/images/franciszamora.jpg" alt=""/></div>
+										<div class="quote">
+											I believe that San Juan will develop holistically because The PARC Foundation will now train our youth... This is something big for San Juan. We want San Juan to be a cultural hub... We can now have a lot of events through your foundation which of course, the city government will support.
+										</div>
+										<div class="author">Hon. Francis Zamora</div>
+										<div class="company">Mayor of the <a href="#">City of San Juan</a></div>
+									</li>
+									<li>
+										<div class="avatar"><img src="images/images/morisette.png" alt=""/></div>
+										<div class="quote">
+											I am happy there is a foundation such as The PARC Foundation that helps aspiring dreamers in honing their gifts in the arts and music. To The PARC Foundation scholars, never be afraid to dream big dreams, then go for them and make them happen.
+										</div>
+										<div class="author">Morissette</div>
+										<div class="company">Asia’s <a href="#">Phoenix </a></div>
+									</li>
+									<li>
+										<div class="avatar"><img src="images/images/thecompany1.jpg" alt=""/></div>
+										<div class="quote">
+											To The PARC Foundation scholars, we encourage you to press on with your studies and your art. It is our duty and responsibility to tend and develop these special gifts God has loaned to us… May you all use these special talents to glorify God, to add beautiful and good things in the world and use your art as a powerful tool for change for the good.
+
+										</div>
+										<div class="author">The CompanY</div>
+										<div class="company">Asia’s Premiere, <a href="#">Vocal Ensemble</a></div>
+									</li>
+									<li>
+										<div class="avatar"><img src="images/images/corey.jpg" alt=""/></div>
+										<div class="quote">
+											I found the story of Wilmer very inspirational. At 25 y/o, he already did so much for so many children. If only he could have done more… It’s a good example for all of us to follow. To The PARC scholars, do not give up on your dreams. If music is your passion, don’t let it slip away.
+
+										</div>
+										<div class="author">Corey Koh</div>
+										<div class="company">17 y/o Tenor from <a href="#">Singapore</a></div>
+									</li>
+									<li>
+										<div class="avatar"><img src="images/images/michelle.jpg" alt=""/></div>
+										<div class="quote">
+											I was glad to have contact time with the PARC scholars and observe snippets of what PARC was about, with its mission for serving the ‘struggling artistes’ in the area. This is definitely a project worth supporting, as it engages and uplifts society through music, and fills in the need for developmental programmes, such as making top tier talent mentorship accessible to gifted and aspiring artistes who may not be able to afford them. This is one organisation which makes a difference in the lives of Filipinos, through the arts.
+
+
+										</div>
+										<div class="author">Michelle SgP</div>
+										<div class="company">International <a href="#">Jazz Singer</a></div>
+									</li>
+								</ul>
+								<a href="#" class="prev icon-arrow-left scroll fadeInLeft delay250"></a>
+								<a href="#" class="next icon-arrow-right scroll fadeInRight delay250"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ Testimonials -->
+
+      <!-- Pricing -->
+    <section id="support" class="section section-gray section-pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="section-header">
+              <h2 class="section-title"><span class="highlight scroll fadeInLeft">Support</span><span class="scroll fadeInRight"> Us</span></h2>
+            
+            </div>
+          </div>
+        </div>
+        <div class="row pricing-list">
+          <div class="col-sm-6 col-md-12 col-lg-12">
+            <div class="pricing-item">
+              <article class="post">
+              <h4 class="title" >There are many ways by which you can support The PARC Foundation:</h4>
+              <br>
+      <strong><h2 style="font-size: 25px; text-align: left;">DONATE</h2></strong>
+      <p><ul>
+        <li align="left">> Help us enable young and striving Filipino artists to succeed. The PARC Foundation accepts donations in cash, in kind, or in form of services.</li>
+        <li align="left">> For cash donations, please deposit to:<br>
+            &nbsp&nbsp&nbspi. <strong>Account Name:</strong> The Performing Arts and Recreation Center Foundation Inc.<br>
+            &nbsp&nbsp&nbspii. <strong>Account Number:</strong><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp BPI: 4931-0062-96<br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPNB: 1651-0241-53</li>
+        <li align="left">> Please send a copy of the deposit slip / proof of money transfer to <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">inquiries@theparcfoundation.ph</a>. We will send a confirmation e-mail once we receive it.<br>
+      </ul>
+</p><br><br>
+<strong><h2 style="font-size: 25px" align="left">SPONSORS</h2></strong>
+<ul>
+        <li align="left">> Join Project SAYA - Sponsor A Young Artist! For only Php 40,000, you will get to sponsor the artistic life skills training of a young deserving scholar for one whole year. Be part of the making of our country’s future top-notch artists.
+</li>
+<li align="left">> Co-Create a CSR Project with us! With our pool of artists and facilities, we can create performing arts-based activities to achieve your CSR goal.
+</li>
+</ul><br><br>
+
+<strong><h2 style="font-size: 25px" align="left">FUNDRAISE</h2></strong>
+<ul>
+        <li align="left">> Do you have an upcoming event? A birthday party? Or perhaps a merchandise campaign? Make The PARC Foundation your beneficiary.
+</li>
+
+</ul><br><br>
+<strong><h2 style="font-size: 25px" align="left">REQUEST A PERFORMANCE</h2></strong>
+<ul>
+        <li align="left">>Invite our PARCaralan scholars to perform in your event.
+</li>
+
+<strong><br><br><h2 style="font-size: 25px" align="left">Buy our advocacy shirts and watches</h2></strong>
+<center><iframe src="https://player.vimeo.com/video/395135966" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
+</ul></article>
+          
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!--/ Team -->
+		<!-- Blog -->
+		<section id="news" class="section section-blog">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="section-header">
+							<h2 class="section-title"><span class="scroll fadeInLeft">Latest</span><span class="highlight scroll fadeInRight">News</span></h2>
+							<h5 class="section-subtitle">latest posts</h5>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+				<div class="articles">
+					<!-- Post -->
+					<article class="article">
+						<div class="post-image-wrap">
+							<a href="#" class="post-image"><img src="/images/images/events/new event/Capture.PNG" alt=""  style="height: 150px; width: 214px;"/></a>
+						</div>
+						<div class="post-content">
+							<div class="inner">
+								<h3 class="post-title"><a href="https://www.facebook.com/parcph/photos/a.464451167090905/1381782838691062/?type=3&theater" target="_blank">Project Tempo</a></h3>
+								<div class="post-description">
+									<p>
+										UPDATE! Here's a #ProjectTEMPO Fundraiser Update! Over the past month, we have now raised Php 45,015! It's slow and steady progress and we would like to thank all our generous donors for helping our #PARCaralan scholars!....
+									</p>
+								</div>
+								<div class="post-meta">
+									<span class="date">July 15, 2020</span>
+									
+								</div>
+							</div>
+						</div>
+						<div class="post-links">
+							<a class="post-link" href="https://www.facebook.com/parcph/photos/a.464451167090905/1381782838691062/?type=3&theater" target="_blank"><i class="icon-arrow-right"></i></a>
+						</div>
+					</article>
+					<!--/ Post -->
+
+					<!-- Post -->
+					<article class="article">
+						<div class="post-image-wrap">
+							<a href="#" class="post-image"><img src="images/images/news/Capture1.PNG" alt="" style="height: 150px; width: 214px;" /></a>
+						</div>
+						<div class="post-content">
+							<div class="inner">
+								<h3 class="post-title"><a href="https://www.facebook.com/parcph/videos/694899277741866/UzpfSTQ2Mzc5NTY0MzgyMzEyNDoxMzQ1Njg5NTU1NjMzNzI0/" target="_blank">The 4th PARC Foundation Day</a></h3>
+								<div class="post-description">
+									<p>
+										🙌 THANK YOU 👏 for joining us in The 4th PARC Foundation Day: Relive the Passion! 🎶💃🎭
+
+To "relive the passion" you can check out our Facebook Live video right here: https://www.facebook.com/parcph/videos/694899277741866..
+									</p>
+								</div>
+								<div class="post-meta">
+									<span class="date">May 31, 2019</span>
+						
+								</div>
+							</div>
+						</div>
+						<div class="post-links">
+							<a class="post-link" href="https://www.facebook.com/parcph/videos/694899277741866/UzpfSTQ2Mzc5NTY0MzgyMzEyNDoxMzQ1Njg5NTU1NjMzNzI0/" target="_blank"><i class="icon-arrow-right"></i></a>
+						</div>
+					</article>
+					<!--/ Post -->
+					<!-- Post -->
+					<article class="article">
+						<div class="post-image-wrap">
+							<a href="#" class="post-image"><img src="images/images/news/Capture2.PNG" alt="" style="height: 150px; width: 214px;" /></a>
+						</div>
+						<div class="post-content">
+							<div class="inner">
+								<h3 class="post-title"><a href="https://www.facebook.com/parcph/photos/a.470999389769416/1271905803012100/?type=3&theater" target="_blank">"REISE: Mixed Voices in Manila"</a></h3>
+								<div class="post-description">
+									<p>
+										Here's a wunderbar picture of Mixed Voices with our #PARCaralan Music Scholars after their choral workshop last Sunday! Listen to this wonderful collaboration TONIGHT!..
+									</p>
+								</div>
+								<div class="post-meta">
+									<span class="date">February 27, 2020</span>
+								</div>
+							</div>
+						</div>
+						<div class="post-links">
+							<a class="post-link" href="https://www.facebook.com/parcph/photos/a.470999389769416/1271905803012100/?type=3&theater" target="_blank"><i class="icon-arrow-right"></i></a>
+						</div>
+					</article>
+					<!--/ Post -->
+					<!-- Post -->
+					<article class="article">
+						<div class="post-image-wrap">
+							<a href="#" class="post-image"><img src="images/images/news/Capture3.PNG" alt="" style="height: 150px; width: 214px;" /></a>
+						</div>
+						<div class="post-content">
+							<div class="inner">
+								<h3 class="post-title"><a href="https://www.facebook.com/parcph/photos/a.470999389769416/1363355943867085/?type=3&theater" target="_blank">Project Tempo</a></h3>
+								<div class="post-description">
+									<p>
+										Catch the Prince of Broadway Jon Joven Uy LIVE on Zoom and Facebook Live TONIGHT at 6:30 pm! 🤩🎤
+..
+									</p>
+								</div>
+								<div class="post-meta">
+									<span class="date">June 22, 2019</span>
+
+								</div>
+							</div>
+						</div>
+						<div class="post-links">
+							<a class="post-link" href="images/news.html" target="_blank"><i class="icon-arrow-right"></i></a>
+						</div>
+					</article>
+					<!--/ Post -->
+					
+					
+				</div>
+					</div>
+				</div>
+				<a href="images/news.html" target="_blank" class="btn btn-lg">Read More</a>
+			</div>
+		</section>
+		<!--/ Blog -->
+		<!-- Contact -->
+		<section id="contact" class="section section-contact">
+			<div class="location">
+				<!-- Google Map -->
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.876928192897!2d121.03007295062712!3d14.606085989748946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b62b23d47e29%3A0x2ef85a8ccfab4f12!2s494%20Lt.%20Artiaga%2C%20San%20Juan%2C%201500%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1582101293928!5m2!1sen!2sph" width="1920" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				<div class="tooltip-holder hidden">
+					<div class="gmap-tooltip">
+						<h6>494 Lt. Artiaga St., Corazon De Jesus, </h6>
+						<span>San Juan City, Metro Manila, Philippines 1500</span>
+					</div>
+				</div>
+				<!--/ Google Map -->
+				<!-- Map Overlay -->
+				<div class="map-overlay overlay">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="section-header">
+									<h2 class="section-title"><span class="highlight scroll fadeInLeft">Contact </span><span class="scroll fadeInRight">Us</span></h2>
+						
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<div class="address">
+									<span>494 Lt. Artiaga St., Corazon De Jesus,</span>
+									<span>San Juan City, Metro Manila, Philippines 1500</span>
+								</div>
+							</div>
+							<div class="col-xs-12">
+								<a href="https://www.google.com/maps/place/The+PARC+(Performing+Arts+and+Recreation+Center)+Foundation,+494+Lt.+Artiaga,+San+Juan,+1500+Metro+Manila/@14.606086,121.032267,17z/data=!4m2!3m1!1s0x3397b62b23d47e29:0xeb1558967e7b711d" target="_blank" class="show-map btn">Show map</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--/ Map Overlay -->
+				<a href="#" class="hide-map btn btn-xs btn-filled">Hide map</a>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<img src="images/images/map.jpg">
+					</div>
+					<div class="col-md-4">
+						<!-- Contact Information -->
+						<div class="widget widget-contact">
+							<ul>
+								<li><span><i class="icon-location"></i>494 Lt. Artiaga St., Corazon De Jesus, San Juan City, Metro Manila, Philippines 1500</span></li>
+								<li><span><i class="icon-phone"></i>8350-63566<br>(+63 942) 8281 6920</span></li>
+								<li><a href="#"><i class="icon-mail"></i>inquiries@theparcfoundation.ph</a></li>
+								<li><a href="https://www.facebook.com/parchph" target="_blank"><i class="icon-facebook"></i>/parcph</a></li>
+								<li><a href="https://www.instagram.com/parcph" target="_blank"><i class="icon-instagram"></i>/parcph</a></li>
+							</ul>
+						</div>
+						<!--/ Contact Information -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ Contact -->
+	</main>
+	<!--/ Content -->
+	<!-- Footer -->
+
+	<footer class="footer overlay invisible">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="social-links">
+						<a href="https://www.facebook.com/parcph" target="_blank" class="icon-facebook"></a>
+						
+						
+						<a href="https://www.instagram.com/parcph" target="_blank" class="icon-instagram"></a>
+						
+					</div>
+				</div>
+				<div class="col-sm-4">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="copyright">&copy; Copyright 2020 <a href="#"></a></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <center><h2 style="color: #fff">Community Development</h2></center>
+    </div>
+    <div class="modal-body"><br><br>
+      <p>We establish partnerships with like-minded groups or individuals to create performing
+arts-based activities to achieve a common goal. Through our ​ArtVocacy Program​,
+Government Institutions, Schools, Churches, Private Corporations, Philanthropists, and
+Individuals become our donors, sponsors, and volunteers. Together, we work towards
+social and cultural impact.
+</p>
+
+<h3 id="accordions">Click below for images</h3>
+								<!-- Accordion -->
+								
+						
+								
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle" data-toggle="collapse" data-parent="#accordion" href="#toggle3">Creating Social Cultural Impact with San Juan City Mayor Francis Zamora</a></h4>
+										</div>
+
+										<div id="toggle3" class="panel-collapse collapse in">
+											<div class="panel-body">
+									
+
+											 <div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery">
+										      <li data-src="images/images/zamora1.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/zamora1.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/zamora2.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/zamora2.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/zamora3.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/zamora3.jpg">
+										         
+										        </a>
+										      </li>
+										      
+										    </ul>
+										  </div>
+										</div>
+
+
+
+
+																				</div>
+										</div>
+									</div>
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle4">Creating Social Cultural Impact with Manila City Mayor Isko Moreno</a></h4>
+										</div>
+										<div id="toggle4" class="panel-collapse collapse">
+											<div class="panel-body">
+										
+
+
+
+
+												<div class="cont">
+												    <div class="demo-gallery">
+												    <ul id="lightgallerytwo">
+												      <li data-src="images/images/isko.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/isko.jpg">
+												         
+												        </a>
+												      </li>
+												      <li data-src="images/images/isko2.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/isko2.jpg">
+												       
+												        </a>
+												      </li>
+												      <li data-src="images/images/isko3.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/isko3.jpg">
+												         
+												        </a>
+												      </li>
+												      
+												    </ul>
+												  </div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle5">Creating Social Cultural Impact with Coke Studio</a></h4>
+										</div>
+										<div id="toggle5" class="panel-collapse collapse">
+											<div class="panel-body">
+										
+
+											 <div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallerythree">
+										      <li data-src="images/images/03 Creating Social _ Cultural Impact with Coke Studio/coke1.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/03 Creating Social _ Cultural Impact with Coke Studio/coke1.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="images/images/03 Creating Social _ Cultural Impact with Coke Studio/coke2.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/03 Creating Social _ Cultural Impact with Coke Studio/coke2.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="images/images/03 Creating Social _ Cultural Impact with Coke Studio/coke3.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/03 Creating Social _ Cultural Impact with Coke Studio/coke3.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/03 Creating Social _ Cultural Impact with Coke Studio/coke4.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/03 Creating Social _ Cultural Impact with Coke Studio/coke4.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/03 Creating Social _ Cultural Impact with Coke Studio/coke5.png">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/03 Creating Social _ Cultural Impact with Coke Studio/coke5.png">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/03 Creating Social _ Cultural Impact with Coke Studio/coke6.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/03 Creating Social _ Cultural Impact with Coke Studio/coke6.jpg">
+										         
+										        </a>
+										      </li>
+										      
+										    </ul>
+										  </div>
+										</div>
+
+
+										</div>
+										</div></div>
+									
+								<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle6">Creating Social Cultural Impact with Volunteers</a></h4>
+										</div>
+										<div id="toggle6" class="panel-collapse collapse">
+											<div class="panel-body">
+										
+
+											<div class="cont">
+												    <div class="demo-gallery">
+												    <ul id="lightgalleryfour">
+												      <li data-src="images/images/05 Creating Social _ Cultural Impact with Volunteers/vol1.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/05 Creating Social _ Cultural Impact with Volunteers/vol1.jpg">
+												         
+												        </a>
+												      </li>
+												      <li data-src="images/images/05 Creating Social _ Cultural Impact with Volunteers/vol2.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/05 Creating Social _ Cultural Impact with Volunteers/vol2.jpg">
+												       
+												        </a>
+												      </li>
+												      <li data-src="images/images/05 Creating Social _ Cultural Impact with Volunteers/vol3.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/05 Creating Social _ Cultural Impact with Volunteers/vol3.jpg">
+												         
+												        </a>
+												      </li>
+												      
+												    </ul>
+												  </div>
+												</div>
+
+										</div>
+								</div></div>
+
+								<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle7">Creating Social Cultural Impact with Art Lounge and The Podium</a></h4>
+										</div>
+										<div id="toggle7" class="panel-collapse collapse">
+											<div class="panel-body">
+											
+
+
+										<div class="cont">
+												    <div class="demo-gallery">
+												    <ul id="lightgalleryfive">
+												      <li data-src="images/images/06 Creating Social _ Cultural Impact with Art Lounge and The Podium/art1.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/06 Creating Social _ Cultural Impact with Art Lounge and The Podium/art1.JPG">
+												         
+												        </a>
+												      </li>
+												      <li data-src="images/images/06 Creating Social _ Cultural Impact with Art Lounge and The Podium/art2.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/06 Creating Social _ Cultural Impact with Art Lounge and The Podium/art2.JPG">
+												       
+												        </a>
+												      </li>
+												      <li data-src="images/images/06 Creating Social _ Cultural Impact with Art Lounge and The Podium/art3.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/06 Creating Social _ Cultural Impact with Art Lounge and The Podium/art3.JPG">
+												         
+												        </a>
+												      </li>
+												       <li data-src="images/images/06 Creating Social _ Cultural Impact with Art Lounge and The Podium/art4.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/06 Creating Social _ Cultural Impact with Art Lounge and The Podium/art4.JPG">
+												         
+												        </a>
+												      </li>
+												       <li data-src="images/images/06 Creating Social _ Cultural Impact with Art Lounge and The Podium/art5.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/06 Creating Social _ Cultural Impact with Art Lounge and The Podium/art5.JPG">
+												         
+												        </a>
+												      </li>
+												       <li data-src="images/images/06 Creating Social _ Cultural Impact with Art Lounge and The Podium/art6.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/06 Creating Social _ Cultural Impact with Art Lounge and The Podium/art6.JPG">
+												         
+												        </a>
+												      </li>
+												      
+												    </ul>
+												  </div>
+												</div>
+
+
+
+										</div>
+								</div></div>
+								
+								
+								<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle8">Creating Social Cultural Impact with JB Music</a></h4>
+										</div>
+										<div id="toggle8" class="panel-collapse collapse">
+											<div class="panel-body">
+										
+
+											<div class="cont">
+												    <div class="demo-gallery">
+												    <ul id="lightgallerysix">
+												      <li data-src="images/images/04 Creating Social _ Cultural Impact with JB Music/jb1.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/04 Creating Social _ Cultural Impact with JB Music/jb1.jpg">
+												         
+												        </a>
+												      </li>
+												      <li data-src="images/images/04 Creating Social _ Cultural Impact with JB Music/jb2.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/04 Creating Social _ Cultural Impact with JB Music/jb2.jpg">
+												       
+												        </a>
+												      </li>
+												      <li data-src="images/images/04 Creating Social _ Cultural Impact with JB Music/jb3.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/04 Creating Social _ Cultural Impact with JB Music/jb3.jpg">
+												         
+												        </a>
+												      </li>
+												       <li data-src="images/images/04 Creating Social _ Cultural Impact with JB Music/jb4.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="images/images/04 Creating Social _ Cultural Impact with JB Music/jb4.jpg">
+												         
+												        </a>
+												      </li>
+												     
+												      
+												    </ul>
+												  </div>
+												</div>
+
+
+
+											</div>
+									
+								</div></div>
+								<!--/ Accordion -->
+
+
+      
+    </div>
+ </div></div>
+
+<div id="myModal2" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <center><h2 style="color: #fff">Artist Empowerment</h2></center>
+    </div>
+    <div class="modal-body">
+      <p>We create a pool of diverse and empowered performing artists through our ​Artist
+Partnership Program ​wherein they are given opportunities to hone their skills,
+showcase their talents and be relevant contributors to the society. In PARC, they have
+a performing arts hub they can call home and a support group that helps them with
+their training / production needs. Moreover, we take care of artists’ wellness through
+our ​Artist Welfare Program​. In collaboration with industry experts, we conduct free
+trainings and seminars on health, education, employment, and entrepreneurship,
+designed especially for artists.
+</p>
+<h3 id="accordions">Click below for images</h3>
+								<!-- Accordion -->
+								
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle" data-toggle="collapse" data-parent="#accordion" href="#toggle9">A Walk in The PARC Open House Festival feat. Various Artist Partners</a></h4>
+										</div>
+										<div id="toggle9" class="panel-collapse collapse in">
+											<div class="panel-body">
+											
+
+											 <div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgalleryseven">
+										      <li data-src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/_MG_1253.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/_MG_1253.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/_MG_1339.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/_MG_1339.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/_MG_5675.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/_MG_5675.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/_MG_5752.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/_MG_5752.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/DSC_9316.JPG">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/DSC_9316.JPG">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/DSC_9332.JPG">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/DSC_9332.JPG">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/DSC_9387.JPG">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/DSC_9387.JPG">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/DSCF3467.JPG">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/A Walk in The PARC - Open House Festival feat. Various Artist Partners/DSCF3467.JPG">
+										         
+										        </a>
+										      </li>
+
+
+										      
+										    </ul>
+										  </div>
+										</div>
+
+											</div>
+										</div>
+									</div>
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle10">Black Canvas Weight of Words</a></h4>
+										</div>
+										<div id="toggle10" class="panel-collapse collapse">
+											<div class="panel-body">
+										
+
+
+												 <div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery8">
+										      <li data-src="images/images/04 Artist Empowerment/Black Canvas Weight of Words/60683425_10157190642726112_6949039257071648768_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Black Canvas Weight of Words/60683425_10157190642726112_6949039257071648768_o.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/04 Artist Empowerment/Black Canvas Weight of Words/64587848_10157267485256112_7897104866202353664_n.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Black Canvas Weight of Words/64587848_10157267485256112_7897104866202353664_n.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/04 Artist Empowerment/Black Canvas Weight of Words/wow-abner-1-1558422922.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Black Canvas Weight of Words/wow-abner-1-1558422922.jpg">
+										         
+										        </a>
+										      </li>
+									 
+										    </ul>
+										  </div>
+										</div>
+
+
+											</div>
+										</div>
+									</div>
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle11">Move MNL Two Left Feet</a></h4>
+										</div>
+										<div id="toggle11" class="panel-collapse collapse">
+											<div class="panel-body">
+						
+
+
+
+												 <div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery9">
+										      <li data-src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52080023_997202370482446_4062146275754115072_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52080023_997202370482446_4062146275754115072_o.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52630671_997202347149115_3871727857008902144_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52630671_997202347149115_3871727857008902144_o.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52672967_997202597149090_3114320437467676672_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52672967_997202597149090_3114320437467676672_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52692501_997202330482450_3409824860426207232_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52692501_997202330482450_3409824860426207232_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52712890_993153854220631_3057849168077783040_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52712890_993153854220631_3057849168077783040_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52743958_997202560482427_377596666917683200_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52743958_997202560482427_377596666917683200_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52819954_997202420482441_6823831683263889408_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52819954_997202420482441_6823831683263889408_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52867283_997202463815770_1949878250024992768_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Move MNL Two Left Feet/52867283_997202463815770_1949878250024992768_o.jpg">
+										         
+										        </a>
+										      </li>
+										     
+									 
+										    </ul>
+										  </div>
+										</div>
+
+
+
+										</div>
+										</div></div>
+									
+								<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle12">PBT Dance School</a></h4>
+										</div>
+										<div id="toggle12" class="panel-collapse collapse">
+											<div class="panel-body">
+											
+									
+
+
+												 <div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery10">
+										      <li data-src="images/images/04 Artist Empowerment/PBT Dance School/67947915_1107730856096263_935438117517656064_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/PBT Dance School/67947915_1107730856096263_935438117517656064_o.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/04 Artist Empowerment/PBT Dance School/68254018_1107730882762927_4689950368489013248_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/PBT Dance School/68254018_1107730882762927_4689950368489013248_o.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/04 Artist Empowerment/PBT Dance School/68836501_1107730986096250_1224410629658378240_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/PBT Dance School/68836501_1107730986096250_1224410629658378240_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/PBT Dance School/71654713_1146553978880617_602095294674370560_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/PBT Dance School/71654713_1146553978880617_602095294674370560_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/PBT Dance School/71723044_1144070805795601_258529822601379840_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/PBT Dance School/71723044_1144070805795601_258529822601379840_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/PBT Dance School/72480505_1146553988880616_3902127970537439232_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/PBT Dance School/72480505_1146553988880616_3902127970537439232_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/PBT Dance School/75196340_1181609508708397_2274654842200784896_n.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/PBT Dance School/75196340_1181609508708397_2274654842200784896_n.jpg">
+										         
+										        </a>
+										      </li>
+						
+									 
+										    </ul>
+										  </div>
+										</div>
+
+
+
+										</div>
+								</div></div>
+
+								<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle13">UST Teatro Tomasino May Isang Sundalo</a></h4>
+										</div>
+										<div id="toggle13" class="panel-collapse collapse">
+											<div class="panel-body">
+											
+						
+
+
+
+												 <div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery11">
+										      <li data-src="images/images/04 Artist Empowerment/UST Teatro Tomasino May Isang Sundalo/May Isang Sundalo poster final.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/UST Teatro Tomasino May Isang Sundalo/May Isang Sundalo poster final.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/04 Artist Empowerment/UST Teatro Tomasino May Isang Sundalo/52354565_996051987264151_6471070398447353856_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/UST Teatro Tomasino May Isang Sundalo/52354565_996051987264151_6471070398447353856_o.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/04 Artist Empowerment/UST Teatro Tomasino May Isang Sundalo/52407159_996052010597482_9171501287324254208_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/UST Teatro Tomasino May Isang Sundalo/52407159_996052010597482_9171501287324254208_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/UST Teatro Tomasino May Isang Sundalo/53661784_1006222889580394_1616101966197293056_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/UST Teatro Tomasino May Isang Sundalo/53661784_1006222889580394_1616101966197293056_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/UST Teatro Tomasino May Isang Sundalo/53843148_1006222902913726_8901902131410239488_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/UST Teatro Tomasino May Isang Sundalo/53843148_1006222902913726_8901902131410239488_o.jpg">
+										         
+										        </a>
+										      </li>
+										    
+						
+									 
+										    </ul>
+										  </div>
+										</div>
+
+
+
+
+										</div>
+								</div></div>
+								
+								
+								<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle14">Various Rehearsals</a></h4>
+										</div>
+										<div id="toggle14" class="panel-collapse collapse">
+											<div class="panel-body">
+												
+
+												 <div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery12">
+										      <li data-src="images/images/04 Artist Empowerment/Various Rehearsals/13403372_510882945781060_5781125319926366271_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Various Rehearsals/13403372_510882945781060_5781125319926366271_o.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/04 Artist Empowerment/Various Rehearsals/15724801_585767084959312_6286704081416723002_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Various Rehearsals/15724801_585767084959312_6286704081416723002_o.jpg">
+										          
+										        </a>
+										      </li>
+										      <li data-src="images/images/04 Artist Empowerment/Various Rehearsals/15896115_592173930985294_4095476800380123864_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Various Rehearsals/15896115_592173930985294_4095476800380123864_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/Various Rehearsals/15937115_592173834318637_1445940341669786239_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Various Rehearsals/15937115_592173834318637_1445940341669786239_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/04 Artist Empowerment/Various Rehearsals/20160602 AJ.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Various Rehearsals/20160602 AJ.jpg">
+										         
+										        </a>
+										      </li>
+										        <li data-src="images/images/04 Artist Empowerment/Various Rehearsals/20160604_163833.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Various Rehearsals/20160604_163833.jpg">
+										         
+										        </a>
+										      </li>
+										        <li data-src="images/images/04 Artist Empowerment/Various Rehearsals/52840312_10156287369641848_1030185280751009792_n.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Various Rehearsals/52840312_10156287369641848_1030185280751009792_n.jpg">
+										         
+										        </a>
+										      </li>
+										        <li data-src="images/images/04 Artist Empowerment/Various Rehearsals/_MG_0681.JPG">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/04 Artist Empowerment/Various Rehearsals/_MG_0681.JPG">
+										         
+										        </a>
+										      </li>
+										    
+						
+									 
+										    </ul>
+										  </div>
+										</div>
+
+
+											</div>
+									
+								</div></div>
+								<!--/ Accordion -->
+      
+    </div>
+    
+  </div>
+
+</div>
+
+
+<div id="myModal3" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <center><h2 style="color: #fff">Youth Development</h2></center>
+    </div>
+    <div class="modal-body">
+      <p>We harness the power of performing arts to transform the lives of underprivileged
+children & youth through our ​flagship program ​called “​PARCaralan​” (a portmanteau
+of PARC and “paaralan” which is the Filipino word for school). It is a free artistic life
+skills training program coupled with educational assistance and career opportunities.
+Artistically gifted children aged 7-12 y/o from underserved communities are accepted
+as scholars. Up until they are 16, they receive formal lessons in music, dance, and
+theater, school supplies, transportation and meal allowances. They also attend values
+formation and character-building workshops as well as cultural immersions that help
+develop their ambitions and broaden their appreciation of the arts. By the time they
+reach 17, we link them up to reputable art schools for their further education, to
+mentors for entrepreneurship, and to professional training or job opportunities on stage
+/ behind-the-scenes / in other fields where they can apply the life skills they have
+learned.
+</p>
+<h3 id="accordions">Click below for images</h3>
+								<!-- Accordion -->
+								
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle" data-toggle="collapse" data-parent="#accordion" href="#toggle15">Artistic Life Skills Training and Educational Assistance</a></h4>
+										</div>
+										<div id="toggle15" class="panel-collapse collapse in">
+											<div class="panel-body">
+											
+
+										 <div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery13">
+										      <li data-src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/20180304_124301.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/20180304_124301.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/29060988_794780020724683_5880849896799097788_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/29060988_794780020724683_5880849896799097788_o.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/29066916_788117961390889_251539415434788864_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/29066916_788117961390889_251539415434788864_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/29352055_794780030724682_4727213597226201159_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/29352055_794780030724682_4727213597226201159_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/29354420_794780074058011_1820536957026010633_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/29354420_794780074058011_1820536957026010633_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/53268288_1006213866247963_7550956022840426496_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/53268288_1006213866247963_7550956022840426496_o.jpg">
+										         
+										        </a>
+										      </li>
+										        <li data-src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/53525885_1006214536247896_416126427688075264_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/01 Artistic Life Skills Training _ Educational Assistance/53525885_1006214536247896_416126427688075264_o.jpg">
+										         
+										        </a>
+										      </li>
+										      
+										    </ul>
+										  </div>
+										</div>
+
+
+
+
+											</div>
+										</div>
+									</div>
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle16">Performances</a></h4>
+										</div>
+										<div id="toggle16" class="panel-collapse collapse">
+											<div class="panel-body">
+										
+
+											<div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery14">
+										    <h4 class="panel-title"><a class="panel-toggle" data-toggle="collapse" data-parent="#accordion" href="#toggle15">1. A Walk in The PARC</a></h4><br>
+
+										      <li data-src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/_MG_1209.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/_MG_1209.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/_MG_1221.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/_MG_1221.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/_MG_1225.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/_MG_1225.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/_MG_1227.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/_MG_1227.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/_MG_1228.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/_MG_1228.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/_MG_1242.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/_MG_1242.jpg">
+										         
+										        </a>
+										      </li>
+										        <li data-src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/Copy of DSC_3877.JPG">
+										        <a href="">
+										          <img class="img-responsive" src="images/images/05 Youth Development/02 Performances/01 A Walk in The PARC/Copy of DSC_3877.JPG">
+										         
+										        </a>
+										      </li>
+										      
+										    </ul>
+										  </div>
+										</div>
+
+
+
+												<div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery15">
+											 <h4 class="panel-title"><a class="panel-toggle" data-toggle="collapse" data-parent="#accordion" href="#toggle15">2. Quarterly Showcases</a></h4><br>
+
+										      <li data-src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/58647176_1034321406770542_6957297590123626496_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/58647176_1034321406770542_6957297590123626496_o.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/66837977_1089066521296030_3123811791205826560_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/66837977_1089066521296030_3123811791205826560_o.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/67199496_1089066464629369_3470860915547570176_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/67199496_1089066464629369_3470860915547570176_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/67256742_1089065437962805_1114939450950942720_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/67256742_1089065437962805_1114939450950942720_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/67311789_1089065964629419_3995103086099038208_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/67311789_1089065964629419_3995103086099038208_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/67454802_1089066367962712_3200209389566820352_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/67454802_1089066367962712_3200209389566820352_o.jpg">
+										         
+										        </a>
+										      </li>
+										        <li data-src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/72765526_1153869501482398_2876844415702269952_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/72765526_1153869501482398_2876844415702269952_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/73233880_1153869094815772_9099524099369074688_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/73233880_1153869094815772_9099524099369074688_o.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/74216701_1153869024815779_2804693092593041408_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/02 Quarterly Showcases/74216701_1153869024815779_2804693092593041408_o.jpg">
+										         
+										        </a>
+										      </li>
+										      
+										    </ul>
+										  </div>
+										</div>
+											
+
+
+
+
+
+												<div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery16">
+											 
+											<h4 class="panel-title"><a class="panel-toggle" data-toggle="collapse" data-parent="#accordion" href="#toggle15">3. Sun Yu-Li x Ramon Orlina Exhibit</a></h4><br>
+
+										      <li data-src="/testparc/images/images/05 Youth Development/02 Performances/03 Sun Yu-Li x Ramon Orlina Exhibit/_KBB8660 (1).JPG">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/03 Sun Yu-Li x Ramon Orlina Exhibit/_KBB8660 (1).JPG">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/02 Performances/03 Sun Yu-Li x Ramon Orlina Exhibit/KB707472.JPG">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/03 Sun Yu-Li x Ramon Orlina Exhibit/KB707472.JPG">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/02 Performances/03 Sun Yu-Li x Ramon Orlina Exhibit/KB707640.JPG">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/03 Sun Yu-Li x Ramon Orlina Exhibit/KB707640.JPG">
+										         
+										        </a>
+										      </li>
+										      
+										    </ul>
+										  </div>
+										</div>
+
+
+
+										<div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery17">
+											 
+											<h4 class="panel-title"><a class="panel-toggle" data-toggle="collapse" data-parent="#accordion" href="#toggle15">4. Spirit of Giving</a></h4><br>
+
+										      <li data-src="/testparc/images/images/05 Youth Development/02 Performances/04 Spirit of Giving/PARC SOG Event-0037.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/04 Spirit of Giving/PARC SOG Event-0037.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/02 Performances/04 Spirit of Giving/PARC SOG Event-1896.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/04 Spirit of Giving/PARC SOG Event-1896.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/02 Performances/04 Spirit of Giving/PARC SOG Event-1900.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/04 Spirit of Giving/PARC SOG Event-1900.jpg">
+										         
+										        </a>
+										      </li>
+										       <li data-src="/testparc/images/images/05 Youth Development/02 Performances/04 Spirit of Giving/PARC SOG Event-7184.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/02 Performances/04 Spirit of Giving/PARC SOG Event-7184.jpg">
+										         
+										        </a>
+										      </li>
+										      
+										    </ul>
+										  </div>
+										</div>
+
+										</div></div>
+									</div>
+									<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle17">Cultural Immersion</a></h4>
+										</div>
+										<div id="toggle17" class="panel-collapse collapse">
+											<div class="panel-body">
+										
+
+										<div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery18">
+											 
+											<h4 class="panel-title"><a class="panel-toggle" data-toggle="collapse" data-parent="#accordion" href="#toggle15">1. CCP - MPO Opus Concert</a></h4><br>
+
+										      <li data-src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - MPO Opus Concert/40518408_901740593361958_5702797265698029568_n.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - MPO Opus Concert/40518408_901740593361958_5702797265698029568_n.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - MPO Opus Concert/40520704_901740013362016_4819043457475543040_n.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - MPO Opus Concert/40520704_901740013362016_4819043457475543040_n.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - MPO Opus Concert/40562581_901740040028680_7088492941047496704_n.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - MPO Opus Concert/40562581_901740040028680_7088492941047496704_n.jpg">
+										         
+										        </a>
+										      </li>  
+										    </ul>
+										  </div>
+										</div>
+
+											<br>
+
+					
+
+
+											<div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery19">
+											 
+											<h4 class="panel-title"><a class="panel-toggle" data-toggle="collapse" data-parent="#accordion" href="#toggle15">2. CCP - PBT Shows</a></h4><br>
+
+										      <li data-src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - PBT Shows/67297403_1095609593975056_417175967371362304_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - PBT Shows/67297403_1095609593975056_417175967371362304_o.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - PBT Shows/67322540_1095609507308398_4886636007807516672_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - PBT Shows/67322540_1095609507308398_4886636007807516672_o.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - PBT Shows/67652827_1095609177308431_4896020416859996160_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - PBT Shows/67652827_1095609177308431_4896020416859996160_o.jpg">
+										         
+										        </a>
+										      </li>  
+										        <li data-src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - PBT Shows/76688912_1189857087883639_4009296076111609856_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - PBT Shows/76688912_1189857087883639_4009296076111609856_o.jpg">
+										         
+										        </a>
+										      </li>  
+										        <li data-src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - PBT Shows/77008700_1189857357883612_5917239498114072576_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - PBT Shows/77008700_1189857357883612_5917239498114072576_o.jpg">
+										         
+										        </a>
+										      </li>  
+										        <li data-src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - PBT Shows/78688173_1189856764550338_3316051937509507072_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/03 Cultural Immersion/CCP - PBT Shows/78688173_1189856764550338_3316051937509507072_o.jpg">
+										         
+										        </a>
+										      </li>  
+										    </ul>
+										  </div>
+										</div>
+
+
+
+									</div>
+										</div>
+										</div>
+									
+								<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle18">Dreams of the Youth Art Workshop with Volunteers</a></h4>
+										</div>
+										<div id="toggle18" class="panel-collapse collapse">
+											<div class="panel-body">
+
+											<div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery20">
+											 
+											
+
+										      <li data-src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/67828925_1106268129575869_2058603036430827520_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/67828925_1106268129575869_2058603036430827520_o.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/67871529_1106265086242840_5736945657315328000_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/67871529_1106265086242840_5736945657315328000_o.jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/67877754_1106266796242669_8351167030619013120_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/67877754_1106266796242669_8351167030619013120_o.jpg">
+										         
+										        </a>
+										      </li>  
+										        <li data-src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/67919265_1106267222909293_8791366552432672768_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/67919265_1106267222909293_8791366552432672768_o.jpg">
+										         
+										        </a>
+										      </li>  
+										        <li data-src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/68309759_1106267836242565_3681753598011637760_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/68309759_1106267836242565_3681753598011637760_o.jpg">
+										         
+										        </a>
+										      </li>  
+										        <li data-src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/68425340_1106267556242593_4282631097658900480_o (1).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/68425340_1106267556242593_4282631097658900480_o (1).jpg">
+										         
+										        </a>
+										      </li>  
+										       <li data-src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/68425340_1106267556242593_4282631097658900480_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/68425340_1106267556242593_4282631097658900480_o.jpg">
+										         
+										        </a>
+										      </li>  
+										       <li data-src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/68687322_1106264712909544_8728958680462000128_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/68687322_1106264712909544_8728958680462000128_o.jpg">
+										         
+										        </a>
+										      </li>  
+										       <li data-src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/68715201_1106267092909306_3897130316527042560_o.jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Dreams of the Youth Art Workshop with Volunteers/68715201_1106267092909306_3897130316527042560_o.jpg">
+										         
+										        </a>
+										      </li>  
+										    </ul>
+										  </div>
+										</div>
+
+
+										</div>
+								</div></div>
+
+								<div class="panel">
+										<div class="panel-heading">
+											<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#toggle19">Various Art Workshops with Neubreed Media</a></h4>
+										</div>
+										<div id="toggle19" class="panel-collapse collapse">
+											<div class="panel-body">
+
+
+											<div class="cont">
+										    <div class="demo-gallery">
+										    <ul id="lightgallery21">
+											 
+											
+
+										      <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (130 of 179).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (130 of 179).jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (14 of 179).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (14 of 179).jpg">
+										        
+										        </a>
+										      </li>
+										      <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (172 of 179).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (172 of 179).jpg">
+										         
+										        </a>
+										      </li>  
+										        <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (176 of 179).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (176 of 179).jpg">
+										         
+										        </a>
+										      </li>  
+										        <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (2 of 179) (1).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (2 of 179) (1).jpg">
+										         
+										        </a>
+										      </li>  
+										        <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (3 of 179).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (3 of 179).jpg">
+										         
+										        </a>
+										      </li>  
+										      <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (45 of 179).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (45 of 179).jpg">
+										         
+										        </a>
+										      </li>  
+										      <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (5 of 179).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (5 of 179).jpg">
+										         
+										        </a>
+										      </li>  
+										      <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (59 of 179).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (59 of 179).jpg">
+										         
+										        </a>
+										      </li>  
+										      <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (6 of 179).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (6 of 179).jpg">
+										         
+										        </a>
+										      </li>  
+										       <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (61 of 179).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (61 of 179).jpg">
+										         
+										        </a>
+										      </li>  
+										       <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (64 of 179).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (64 of 179).jpg">
+										         
+										        </a>
+										      </li>  
+										       <li data-src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (77 of 179).jpg">
+										        <a href="">
+										          <img class="img-responsive" src="/testparc/images/images/05 Youth Development/Various Art Workshops with Neubreed Media/PARC SHOTS (77 of 179).jpg">
+										         
+										        </a>
+										      </li>  
+										     
+										    </ul>
+										  </div>
+										</div>
+
+
+										</div>
+								</div></div>
+								
+								
+								
+								<!--/ Accordion -->
+    
+    </div>
+   
+  </div>
+
+</div>
+
+
+
+<div id="myModal4" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content" style="z-index: 9999">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <center><h2 style="color: #fff">Support Us</h2></center>
+    </div>
+    <div class="modal-body">
+    	<br><br><h2 style="font-size: 20px">There are many ways by which you can support The PARC Foundation:</h2><br>
+    	<strong><h2 style="font-size: 25px">DONATE</h2></strong>
+      <p><ul>
+      	<li>> Help us enable young and striving Filipino artists to succeed. The PARC Foundation accepts donations in cash, in kind, or in form of services.</li>
+      	<li>> For cash donations, please deposit to:<br>
+      			&nbsp&nbsp&nbspi. <strong>Account Name:</strong> The Performing Arts and Recreation Center Foundation Inc.<br>
+      			&nbsp&nbsp&nbspii. <strong>Account Number:</strong><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp BPI: 4931-0062-96<br>
+      		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPNB: 1651-0241-53</li>
+      	<li>> Please send a copy of the deposit slip / proof of money transfer to <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">inquiries@theparcfoundation.ph</a>. We will send a confirmation e-mail once we receive it.<br>
+      </ul>
+</p><br><br>
+<strong><h2 style="font-size: 25px">SPONSORS</h2></strong>
+<ul>
+      	<li>> Join Project SAYA - Sponsor A Young Artist! For only Php 40,000, you will get to sponsor the artistic life skills training of a young deserving scholar for one whole year. Be part of the making of our country’s future top-notch artists.
+</li>
+<li>> Co-Create a CSR Project with us! With our pool of artists and facilities, we can create performing arts-based activities to achieve your CSR goal.
+</li>
+</ul><br><br>
+
+<strong><h2 style="font-size: 25px">FUNDRAISE</h2></strong>
+<ul>
+      	<li>> Do you have an upcoming event? A birthday party? Or perhaps a merchandise campaign? Make The PARC Foundation your beneficiary.
+</li>
+
+</ul><br><br>
+<strong><h2 style="font-size: 25px">REQUEST A PERFORMANCE</h2></strong>
+<ul>
+      	<li>>Invite our PARCaralan scholars to perform in your event.
+</li>
+
+<strong><br><br><h2 style="font-size: 25px" align="left">Buy our advocacy shirts and watches</h2></strong>
+
+
+</ul><br><br><br><br>
+      
+    </div>
+    
+  </div>
+
+</div>
+
+<div id="myModal5" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <center><h2 style="color: #fff">Support Us</h2></center>
+    </div>
+    <div class="modal-body">
+    	<br><br><h2 style="font-size: 20px">There are many ways by which you can support The PARC Foundation:</h2><br>
+    	<strong><h2 style="font-size: 25px">DONATE</h2></strong>
+      <p><ul>
+      	<li>> Help us enable young and striving Filipino artists to succeed. The PARC Foundation accepts donations in cash, in kind, or in form of services.</li>
+      	<li>> For cash donations, please deposit to:<br>
+      			&nbsp&nbsp&nbspi. <strong>Account Name:</strong> The Performing Arts and Recreation Center Foundation Inc.<br>
+      			&nbsp&nbsp&nbspii. <strong>Account Number:</strong><br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp BPI: 4931-0062-96<br></li>
+      	<li>> Please send a copy of the deposit slip / proof of money transfer to <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">inquiries@theparcfoundation.ph</a>. We will send a confirmation e-mail once we receive it.<br>
+      </ul>
+</p><br><br>
+<strong><h2 style="font-size: 25px">SPONSORS</h2></strong>
+<ul>
+      	<li>> Join Project SAYA - Sponsor A Young Artist! For only Php 40,000, you will get to sponsor the artistic life skills training of a young deserving scholar for one whole year. Be part of the making of our country’s future top-notch artists.
+</li>
+<li>> Co-Create a CSR Project with us! With our pool of artists and facilities, we can create performing arts-based activities to achieve your CSR goal.
+</li>
+</ul><br><br>
+
+<strong><h2 style="font-size: 25px">FUNDRAISE</h2></strong>
+<ul>
+      	<li>> Do you have an upcoming event? A birthday party? Or perhaps a merchandise campaign? Make The PARC Foundation your beneficiary.
+</li>
+
+</ul><br><br>
+<strong><h2 style="font-size: 25px">REQUEST A PERFORMANCE</h2></strong>
+<ul>
+      	<li>>Invite our PARCaralan scholars to perform in your event.
+</li>
+
+</ul><br><br><br><br>
+      
+    </div>
+    
+  </div>
+
+</div>
+
+
+
+
+	<!--/ Footer -->
+	<!-- Back to Top Button -->
+	<a href="#header" id="toTop" class="anchor" data-become-visible="2000"><i class="icon-arrow-up-alt"></i></a>
+	<!--/ Back to Top Button -->
+	
+<!-- JS Placed at the end of the document for faster page loading -->
+<!-- Libs -->
+<script src="images/js/libs/jquery-1.11.1.min.js"></script>
+<script src="images/js/libs/jquery-ui.min.js"></script>
+<script src="images/js/libs/bootstrap.min.js"></script>
+<!--[if lt IE 9]><script src="images/js/libs/respond.min.js"></script><![endif]-->
+<!-- NiceScroll -->
+<script src="images/js/jquery.nicescroll.min.js"></script>
+<!-- CarouFredSel -->
+<script src="images/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<!-- TouchSwipe -->
+<script src="images/js/jquery.touchSwipe.min.js"></script>
+<!-- Isotope -->
+<script src="images/js/isotope.pkgd.min.js"></script>
+<!-- Placeholders -->
+<script src="images/js/jquery.powerful-placeholder.min.js"></script>
+<!-- Styled Select -->
+<script src="images/js/cusel.min.js"></script>
+<!-- gMap -->
+<script src="maps/api/js_sensor_false.js"></script>
+<script src="images/js/jquery.gmap.min.js"></script>
+<!-- TweenLite, used for smooth scrolling -->
+<script src="images/js/TweenLite.min.js"></script>
+<script src="images/js/ScrollToPlugin.min.js"></script>
+<!-- General Scripts -->
+<script src="images/js/general.js"></script>
+<!-- Settings Panel, just for Demo purposes -->
+<script src="images/panel/panel.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+<script>
+lightGallery(document.getElementById('lightgallery'))
+lightGallery(document.getElementById('lightgallerytwo'))
+lightGallery(document.getElementById('lightgallerythree'))
+lightGallery(document.getElementById('lightgalleryfour'))
+lightGallery(document.getElementById('lightgalleryfive'))
+lightGallery(document.getElementById('lightgallerysix'))
+lightGallery(document.getElementById('lightgalleryseven'))
+lightGallery(document.getElementById('lightgallery8'))
+lightGallery(document.getElementById('lightgallery9'))
+lightGallery(document.getElementById('lightgallery10'))
+lightGallery(document.getElementById('lightgallery11'))
+lightGallery(document.getElementById('lightgallery12'))
+lightGallery(document.getElementById('lightgallery13'))
+lightGallery(document.getElementById('lightgallery14'))
+lightGallery(document.getElementById('lightgallery15'))
+lightGallery(document.getElementById('lightgallery16'))
+lightGallery(document.getElementById('lightgallery17'))
+lightGallery(document.getElementById('lightgallery18'))
+lightGallery(document.getElementById('lightgallery19'))
+lightGallery(document.getElementById('lightgallery20'))
+lightGallery(document.getElementById('lightgallery21'))
+
+
+
+
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-57606857-11', 'auto');
+  ga('send', 'pageview');
+</script>
+<script>
+	// Get the button that opens the modal
+var btn = document.querySelectorAll("button.modal-button");
+
+// All page modals
+var modals = document.querySelectorAll('.modal');
+
+// Get the <span> element that closes the modal
+var spans = document.getElementsByClassName("close");
+
+// When the user clicks the button, open the modal
+for (var i = 0; i < btn.length; i++) {
+ btn[i].onclick = function(e) {
+    e.preventDefault();
+    modal = document.querySelector(e.target.getAttribute("href"));
+    modal.style.display = "block";
+ }
+}
+
+// When the user clicks on <span> (x), close the modal
+for (var i = 0; i < spans.length; i++) {
+ spans[i].onclick = function() {
+    for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+    }
+ }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+     for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+     }
+    }
+}
+</script>
+<script>
+	function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>

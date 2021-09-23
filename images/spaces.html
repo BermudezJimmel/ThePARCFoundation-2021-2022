@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html lang="en" class="no-js oldie"><![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"><!--<![endif]-->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WPWGNL');</script>
+<!-- End Google Tag Manager -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Spaces</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<!-- Core CSS -->
+	<link href="../images/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="../images/style.css" media="screen" rel="stylesheet" type="text/css">
+	<!-- FontAwesome.css -->
+	<link href="../images/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+	<!-- Animate.css -->
+	<link href="../images/css/animate.css" media="screen" rel="stylesheet" type="text/css">
+	<link id="color-scheme" href="#" media="screen" rel="stylesheet" type="text/css">
+	<!-- Modernizr Library -->
+	<script src="../images/js/libs/modernizr.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/css/lightgallery.css">
+	<style>
+	
+
+.small {
+  font-size: 11px;
+  color: #999;
+  display: block;
+  margin-top: -10px
+}
+
+.cont {
+  text-align: center;
+}
+
+.page-head {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.page-head .lead {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+
+
+
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #152836;
+}
+
+.btn-primary {
+  background-color: #152836;
+  border-color: #0e1a24;
+  color: #ffffff;
+}
+
+.btn-primary {
+  border-color: #eeeeee;
+  color: #eeeeee;
+  transition: color 0.1s ease 0s, background-color 0.15s ease 0s;
+}
+
+.page-head h1 {
+  font-size: 42px;
+  margin: 0 0 20px;
+  color: #FFF;
+  position: relative;
+  display: inline-block;
+}
+
+.page-head h1 .version {
+  bottom: 0;
+  color: #ddd;
+  font-size: 11px;
+  font-style: italic;
+  position: absolute;
+  width: 58px;
+  right: -58px;
+}
+
+.demo-gallery > ul {
+  margin-bottom: 0;
+  padding-left: 15px;
+}
+
+.demo-gallery > ul > li {
+  margin-bottom: 15px;
+  width: 180px;
+  display: inline-block;
+  margin-right: 15px;
+  list-style: outside none none;
+}
+
+.demo-gallery > ul > li a {
+  border: 3px solid #FFF;
+  border-radius: 3px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+.demo-gallery > ul > li a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+}
+
+.demo-gallery > ul > li a:hover > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+  opacity: 1;
+}
+
+.demo-gallery > ul > li a .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+}
+
+.demo-gallery > ul > li a .demo-gallery-poster > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+
+.demo-gallery > ul > li a:hover .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.demo-gallery .justified-gallery > a > img {
+  -webkit-transition: -webkit-transform 0.15s ease 0s;
+  -moz-transition: -moz-transform 0.15s ease 0s;
+  -o-transition: -o-transform 0.15s ease 0s;
+  transition: transform 0.15s ease 0s;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  height: 100%;
+  width: 100%;
+}
+
+.demo-gallery .justified-gallery > a:hover > img {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+  opacity: 1;
+}
+
+.demo-gallery .justified-gallery > a .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.1);
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-transition: background-color 0.15s ease 0s;
+  -o-transition: background-color 0.15s ease 0s;
+  transition: background-color 0.15s ease 0s;
+}
+
+.demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: opacity 0.3s ease 0s;
+  -o-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
+}
+
+.demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.demo-gallery .video .demo-gallery-poster img {
+  height: 48px;
+  margin-left: -24px;
+  margin-top: -24px;
+  opacity: 0.8;
+  width: 48px;
+}
+
+.demo-gallery.dark > ul > li a {
+  border: 3px solid #04070a;
+}
+	</style>
+</head>
+<body data-spy="scroll" data-target="#navigation">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPWGNL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<a class="logo invisible" href="../index.html"><img src="images/logoparc.png" alt=""/></a>
+	<!-- Header -->
+	<header id="header" class="header">
+		<!-- Loader -->
+		<div class="loader invisible">
+			<div class="loader-part-1"></div>
+			<div class="loader-part-2"></div>
+			<div class="loader-part-3"></div>
+		</div>
+		<!--/ Loader -->
+		<!-- Main Header -->
+		<div id="main-header" class="main-header invisible">
+			<div class="item active parallax overlay" data-image="../images/images/temp/spaces1.jpg">
+				<div class="carousel-desc">
+				
+					<h1 class="page-title" data-animate-in="zoomIn">Book A Space</h1>
+					
+				</div>
+			</div>
+		</div>
+		<!--/ Main Header -->
+	</header>
+	<!--/ Header -->
+	<!-- Menu -->
+	<div class="navigation-placeholder invisible">
+		<nav id="navigation" class="navigation sticky-menu">
+			<ul class="nav clearfix">
+				<li><a class="anchor" href="https://www.theparcfoundation.ph" target="_blank">Home</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#about" target="_blank">About Us</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#programs">Programs</a></li>
+				<li><a class="anchor" href="/images/spaces.html">Book A Space</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#events">Events</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#testimonials">Testimonials</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#support" target="_blank">Support Us</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#news">News</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!--/ Menu -->
+	<!-- Content -->
+	<div class="section section-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<!-- Post -->
+					<main class="postlist">
+						<article class="post">
+
+							
+
+							<h3 id="toggles">360° Virtual Tour <a href="https://360ph.net/" style="font-size: 12px;">donated by 360 PH</a></h3> 
+								<!-- Toggles -->
+								<div class="panel">
+									<div class="panel-heading">
+										<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" href="#toggle2">Click to view 360 tour</a></h4>
+									</div>
+									<div id="toggle2" class="panel-collapse collapse">
+										<div class="panel-body">
+											<iframe width="100%" height="640" style="width: 100%; height: 640px; border: none; max-width: 100%;" frameborder="0" allow="vr,gyroscope,accelerometer,fullscreen" scrolling="no" allowfullscreen="true" src="https://kuula.co/share/collection/7lXYP?fs=1&vr=1&sd=1&thumbs=3&chromeless=1&logo=1&logosize=88"></iframe>
+										</div>
+									</div>
+								</div>
+
+
+							<center><h2 style="font-size: 45px">Space Rental and Booking Policies</h2></center><br><br>
+								<!-- Toggles -->
+								<div class="panel">
+									<div class="panel-heading">
+										<h4 class="panel-title"><a class="panel-toggle collapsed" data-toggle="collapse" href="#toggle">Click to view Booking policies</a></h4>
+									</div>
+									<div id="toggle" class="panel-collapse collapse">
+										<div class="panel-body">
+											<h2>PLEASE READ THIS THOROUGHLY BEFORE RESERVING.</h2>
+											<p>The PARC Foundation’s facilities are under the professional management of <strong>DB International Sales,</strong> Inc. as our partner in turning The PARC into a full fledged cultural center in San Juan. The PARC Team will still function as the facility’s frontliners and the foundation’s core group to further our efforts in youth development through performing arts with our flagship program, PARCaralan. </p><br>
+											<h2>BOOKING STEPS:</h2>
+											 <p>A. Four ways to book at The PARC Foundation:</p>
+          <p >1. Fill out our online reservation form.<a href="http://www.theparcfoundation.ph/PARCRESERVATION.html" target="_blank">(www.theparcfoundation.ph/PARCRESERVATION).</a><br>
+
+          &nbsp&nbsp&nbsp2. Contact our Operations Team through the PARC Phones:<br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp a: Mobile number – 0942-281-6920
+
+<br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp b: Landline number – (02) 8350 – 6356 <br>
+          &nbsp&nbsp&nbsp3.Email us through our email address: inquiries@theparcfoundation.ph.<br> 
+
+          &nbsp&nbsp&nbsp4. Drop-by our office so we may book your preferred schedule.</p>
+
+           <p>B. The PARC Foundation team will acknowledge and confirm your booking through SMS and email. The team will also raise any concerns regarding your booking, if necessary.</p>
+           <p>C. For bookings P1,000.00 and up, your group can proceed with the 50% down payment once reservation is confirmed.</p>
+           <p>D. Full payment should be made before room use. For bookings P1,000.00 and up, the other half of the payment should be paid before room use.</p><br>
+
+         
+
+          <strong>I. BOOKING POLICIES</strong><br><br>
+          A. The facility is open to renters from 8:00 a.m. to 10:00 p.m. or upon the request of the group who will use our space. The group can rent the spaces for a minimum of an hour.<br><br>
+          B. For current events, artist, PARCaralan or individual partners, you can book one year in advance. For non-partner groups, you can book one month in advance.<br><br>
+          C. All booking transactions will be accepted on our office hours, Monday to Sunday 9:00 a.m. – 5:00 p.m. except holidays. Bookings submitted beyond our office hours will be acknowledged the following day.<br><br>
+          D. To be more familiar with our space, oculars may also be done during our office hours.<br><br>
+          E. Renters should be 18 years old and above. For 17 years old and below, the PARC Foundation requires for the group to have at least one person of legal age.<br><br>
+          F. Per reservation, there will be a 30-minute gap between each renter for us to clean and prepare the space.<br><br>
+ 
+
+
+          <strong>II. PAYMENT</strong><br><br>
+
+          A. A 50% downpayment (DP) is required for reservations valued at P1,000 and above. Following a first-to-pay, first-to-be-served policy, a DP finalizes your booking and the room won’t be awarded to other groups or clients who offer to pay immediately. <br><br>
+
+          B. No DP is required when:<br>
+          &nbsp&nbsp&nbsp1. reservation is valued at P999.00 below.<br>
+          &nbsp&nbsp&nbsp2. reservations have been made a day before or on the day the renters use the space. (Please be reminded that this does not assure any slot. The foundation will contact you to confirm your booking.)<br><br>
+
+          C. Down payments can be done through:<br><br>
+          &nbsp&nbsp&nbsp1. Bank Deposits and Money Transfers:<br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Account Name: The Performing Arts and Recreation Center Foundation Inc.<br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbspAccount Number:<br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp BPI: 4931-0062-96<br>
+          &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp PNB: 1651-0241-53<br><br>
+
+          (Please send a copy of the deposit slip/money transfer to inquiries@theparcfoundation.ph. We will send a confirmation e-mail once we receive it.)<br><br>
+
+          &nbsp&nbsp&nbsp 2. Direct payment at The PARC front desk.<br><br>
+
+         Full payment and/or remaining balance must be given before your group uses the space.<br><br>
+
+     
+
+         <strong>III. INGRESS, EGRESS & TIME EXTENSIONS</strong><br><br>
+
+          A. Rental duration is inclusive of the ingress and egress time. <br><br>
+          B. Setups/pack-ups that extend beyond the time reserved shall be billed the full hour’s value. If the extension is under 30 minutes, half of the full hour’s value shall be billed. Staying inside the room before/beyond your booked time will be billed accordingly.<br><br>
+          C. In cases you wish to extend, full payment of the extended hours must be made BEFORE you can be allowed continued use of the room. <br><br>
+          D. A 30-minute extension is allowed. The group will be charged accordingly.
+ <br><br>
+          E. Should the room you wish to reserve is unavailable for the additional time, we will request for you to move to another venue with the same value per hour. If in case there are no available rooms that have the same price, we will request you to move to another room. Rates will apply according to what the room is valued per hour. <br><br> 
+
+          <strong>IV. TARDINESS, REDUCTION OF HOURS, & CANCELLATION</strong><br><br>
+
+          A. Should your group be late for whatever reason, you will still need to finish on time and be billed in full for the reserved hour/s.<br><br>  
+          B. Cancellation must be done at least 2 days before the reserved date to avoid any cancellation fee. New reservation will not be entertained until all outstanding cancellation fees are settled.<br><br>   
+          C. No show, on the day, or last-minute cancellations would be charged a cancellation fee, which is equivalent to 50% of the reservation amount. If a 50% DP has been made, it will serve as the cancellation fee.<br><br>  
+          D. Last-minute (less than a day before or on the day itself) cutting back of reservation hours is considered as partial cancellation. The guest must pay 50% of the rental amount needed for the unused hour/s. (i.e., if you rent a studio for 3 hours and decide to use just 2 hours, you would need to pay 50% of the unused 1 hour).<br><br>
+           E. Moving the time of reservations 2 days before or less will be billed as cancellation for the original time and the other will be extension. (ex. The group replaced the booking from 2 – 4 to 3 – 5. They will pay the cancellation fee [50% of the original amount of 2 -3] and whole amount of 3 – 5.)<br><br>
+
+                 
+          <strong>V. EQUIPMENT</strong><br><br>
+
+          A. The Foundation can lend basic speakers, projector, white screen, white board, cork board, tables (small and long table), and chairs. If your group/company needs it, please declare it on the form. The Foundation has the right to lay down rates for the equipment that will be used.
+<br><br>
+          B. If your group will bring in equipment, props, set pieces, etc., kindly e-mail a detailed list to operations@theparcfoundation.ph at least 2 days before your reserved date so we can issue a gate pass. Our security personnel reserve the right to inspect your belongings for the security of the whole facility.<br><br>
+
+           B. The PARC Foundation requires a detailed list of equipment and equipment set up (e.g. light equipment, sound boards, table and seating plan, etc. ). We will review the list to ably help you on your set-up. The facility reserves the right to disallow equipment deemed unsafe (Ex. heavy equipment that our circuit breaker can’t support). 
+<br><br>
+
+
+          <strong>VI. PROPERTY USE & DAMAGE</strong><br><br>
+
+          A. Renters would be fully liable for any property or equipment damage they may cause. Payment terms shall be discussed with the PARC Operations Officer. The renter/s will be prohibited from making future reservations until they have paid the repair or replacement costs. <br><br>
+          B. Renters should clean up and pack up all props, set pieces, and equipment COMPLETELY before leaving. A P2,000 overnight storage fee shall be imposed for heavy items and/or equipment left at the studios or rooms. Any non-PARC property left by renters in the studios or rooms will be disposed of after 1 day. <br><br>
+          C. Our PARKING AREA is strictly for PARKING USE unless it’s rented out for an outdoor event. If you’re bringing a vehicle, kindly park your car in the proper designated spaces. Please note that our parking area allotment is given on a first-come, first-serve basis. Overnight parking is strictly prohibited. <br><br>
+           D. Complex construction involving painting, welding, or other activities that may cause damage to the property is not allowed inside PARC premises. <br><br>
+
+           E. The event/rehearsal organizers are responsible for overseeing group decorum to help avoid property damage. 
+<br><br>
+
+
+
+
+          <strong>VII. RIGHT OF THE PARC FOUNDATION</strong><br><br>
+
+
+          A. The Foundation reserves the right to cancel, move and/or ban the renters in any case/s of non-compliance of the terms and conditions stated above.
+<br> 
+										</div>
+									</div>
+								</div><br><br>
+
+
+
+                  <h2 style="font-size: 32px">Wilmer Hall 160 sqm</h2>
+                <!-- Gallery -->
+            
+                <div class="cont">
+                            <div class="demo-gallery">
+                            <ul id="lightgallery22">
+                              <li data-src="../images/images/06 Spaces/01 Wilmer Hall 160 sqm/01 Wilmer Hall.JPG">
+                                <a href="">
+                                  <img class="img-responsive" src="../images/images/06 Spaces/01 Wilmer Hall 160 sqm/01 Wilmer Hall.JPG">
+                                 
+                                </a>
+                              </li>
+                              <li data-src="../images/images/06 Spaces/01 Wilmer Hall 160 sqm/02 Wilmer Hall.JPG">
+                                <a href="">
+                                  <img class="img-responsive" src="../images/images/06 Spaces/01 Wilmer Hall 160 sqm/02 Wilmer Hall.JPG">
+                               
+                                </a>
+                              </li>
+                              <li data-src="../images/images/06 Spaces/01 Wilmer Hall 160 sqm/03 Wilmer Hall.JPG">
+                                <a href="">
+                                  <img class="img-responsive" src="../images/images/06 Spaces/01 Wilmer Hall 160 sqm/03 Wilmer Hall.JPG">
+                                 
+                                </a>
+                              </li>
+                               <li data-src="../images/images/06 Spaces/01 Wilmer Hall 160 sqm/04 Wilmer Hall.jpg">
+                                <a href="">
+                                  <img class="img-responsive" src="../images/images/06 Spaces/01 Wilmer Hall 160 sqm/04 Wilmer Hall.jpg">
+                                 
+                                </a>
+                              </li>
+                              <li data-src="../images/images/06 Spaces/01 Wilmer Hall 160 sqm/05 Wilmer Hall.jpg">
+                                <a href="">
+                                  <img class="img-responsive" src="../images/images/06 Spaces/01 Wilmer Hall 160 sqm/05 Wilmer Hall.jpg">
+                                 
+                                </a>
+                              </li>
+
+                          
+                              
+                            </ul>
+                          </div>
+                        </div><br><br><br>
+
+
+
+								<h2 style="font-size: 32px">Black Box (83.20 sqm)</h2>
+								<!-- Gallery -->
+						
+								<div class="cont">
+												    <div class="demo-gallery">
+												    <ul id="lightgallery22">
+												      <li data-src="../images/images/06 Spaces/02 Black Box 83.20 sqm/01 Black Box.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/02 Black Box 83.20 sqm/01 Black Box.JPG">
+												         
+												        </a>
+												      </li>
+												      <li data-src="../images/images/06 Spaces/02 Black Box 83.20 sqm/02 Black Box.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/02 Black Box 83.20 sqm/02 Black Box.JPG">
+												       
+												        </a>
+												      </li>
+												      <li data-src="../images/images/06 Spaces/02 Black Box 83.20 sqm/03 Black Box.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/02 Black Box 83.20 sqm/03 Black Box.JPG">
+												         
+												        </a>
+												      </li>
+												       <li data-src="../images/images/06 Spaces/02 Black Box 83.20 sqm/04 Black Box.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/02 Black Box 83.20 sqm/04 Black Box.JPG">
+												         
+												        </a>
+												      </li>
+												      <li data-src="../images/images/06 Spaces/02 Black Box 83.20 sqm/05 Black Box.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/02 Black Box 83.20 sqm/05 Black Box.JPG">
+												         
+												        </a>
+												      </li>
+												      
+												    </ul>
+												  </div>
+												</div><br><br><br>
+
+
+
+								<h2 id="gallery" style="font-size: 32px">Creativity Hall (65 sqm)</h2>
+								<!-- Gallery -->
+				
+
+												<div class="cont">
+												    <div class="demo-gallery">
+												    <ul id="lightgallery2">
+												      <li data-src="../images/images/06 Spaces/03 Creativity Hall 65 sqm/01 Creativity Hall.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/03 Creativity Hall 65 sqm/01 Creativity Hall.JPG">
+						
+												        </a>
+												      </li>
+												      <li data-src="../images/images/06 Spaces/03 Creativity Hall 65 sqm/02 Creativity Hall.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/03 Creativity Hall 65 sqm/02 Creativity Hall.JPG">
+												       
+												        </a>
+												      </li>
+												    
+												      
+												    </ul>
+												  </div>
+												</div><br><br><br>
+
+
+								<h2 id="gallery" style="font-size: 32px">Gallery (35 sqm)</h2>
+								<!-- Gallery -->
+						
+
+												<div class="cont">
+								    <div class="demo-gallery">
+												    <ul id="lightgallery3">
+												      <li data-src="../images/images/06 Spaces/04 Gallery 35 sqm/01 Gallery.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/04 Gallery 35 sqm/01 Gallery.JPG">
+												         
+												        </a>
+												      </li>
+												      <li data-src="../images/images/06 Spaces/04 Gallery 35 sqm/02 Gallery.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/04 Gallery 35 sqm/02 Gallery.JPG">
+												       
+												        </a>
+												      </li>
+												      <li data-src="../images/images/06 Spaces/04 Gallery 35 sqm/03 Gallery.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/04 Gallery 35 sqm/03 Gallery.JPG">
+												         
+												        </a>
+												      </li>
+												       <li data-src="../images/images/06 Spaces/04 Gallery 35 sqm/04 Gallery.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/04 Gallery 35 sqm/04 Gallery.JPG">
+												         
+												        </a>
+												      </li>
+						
+												      
+												    </ul>
+												  </div>
+												</div><br><br><br>
+
+								<h2 id="gallery" style="font-size: 32px">Conference Room (28.40 sqm)</h2>
+								<!-- Gallery -->
+				
+
+												<div class="cont">
+								  <div class="demo-gallery">
+												    <ul id="lightgallery4">
+												      <li data-src="../images/images/06 Spaces/05 Conference Room 28.40 sqm/01 Conference Room.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/05 Conference Room 28.40 sqm/01 Conference Room.JPG">
+												         
+												        </a>
+												      </li>
+												      <li data-src="../images/images/06 Spaces/05 Conference Room 28.40 sqm/02 Conference Room.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/05 Conference Room 28.40 sqm/02 Conference Room.JPG">
+												       
+												        </a>
+												      </li>
+												      <li data-src="../images/images/06 Spaces/05 Conference Room 28.40 sqm/03 Conference Room.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/05 Conference Room 28.40 sqm/03 Conference Room.JPG">
+												         
+												        </a>
+												      </li>
+										
+						
+												      
+												    </ul>
+												  </div>
+												</div><br><br><br>
+								
+								<h2 id="gallery" style="font-size: 32px">Wisdom (27.36 sqm)</h2>
+								<!-- Gallery -->
+						
+
+												<div class="cont">
+								  <div class="demo-gallery">
+												    <ul id="lightgallery5">
+												      <li data-src="../images/images/06 Spaces/06 Wisdom 27.36 sqm/01 Wisdom.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/06 Wisdom 27.36 sqm/01 Wisdom.JPG">
+												         
+												        </a>
+												      </li>
+												      <li data-src="../images/images/06 Spaces/06 Wisdom 27.36 sqm/02 Wisdom.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/06 Wisdom 27.36 sqm/02 Wisdom.JPG">
+												       
+												        </a>
+												      </li>
+												      <li data-src="../images/images/06 Spaces/06 Wisdom 27.36 sqm/03 Wisdom.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/06 Wisdom 27.36 sqm/03 Wisdom.JPG">
+												         
+												        </a>
+												      </li>
+												       <li data-src="../images/images/06 Spaces/05 Conference Room 28.40 sqm/03 Conference Room.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/05 Conference Room 28.40 sqm/03 Conference Room.JPG">
+												         
+												        </a>
+												      </li>
+						
+												      
+												    </ul>
+												  </div>
+												</div><br><br><br>
+
+
+								<h2 id="gallery" style="font-size: 32px">Joy (25.50 sqm)</h2>
+								<!-- Gallery -->
+							
+
+												<div class="cont">
+								  <div class="demo-gallery">
+												    <ul id="lightgallery6">
+												      <li data-src="../images/images/06 Spaces/07 Joy 25.50 sqm/01 Joy.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/07 Joy 25.50 sqm/01 Joy.JPG">
+												         
+												        </a>
+												      </li>
+												      <li data-src="../images/images/06 Spaces/07 Joy 25.50 sqm/02 Joy.JPG">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/07 Joy 25.50 sqm/02 Joy.JPG">
+												       
+												        </a>
+												      </li>
+											
+						
+												      
+												    </ul>
+												  </div>
+												</div><br><br><br>
+
+
+							<h2 id="gallery" style="font-size: 32px">Dream Studio</h2>
+								<!-- Gallery -->
+							
+
+												<div class="cont">
+								          <div class="demo-gallery">
+												    <ul id="lightgallery7">
+												      <li data-src="../images/images/06 Spaces/08 DREAM Studio (Visual Content Creation Studio)/01 DREAM Studio.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/08 DREAM Studio (Visual Content Creation Studio)/01 DREAM Studio.jpg">
+												         
+												        </a>
+												      </li>
+												      <li data-src="../images/images/06 Spaces/08 DREAM Studio (Visual Content Creation Studio)/02 DREAM Studio.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/08 DREAM Studio (Visual Content Creation Studio)/02 DREAM Studio.jpg">
+												       
+												        </a>
+												      </li>
+												       <li data-src="../images/images/06 Spaces/08 DREAM Studio (Visual Content Creation Studio)/03 DREAM Studio.jpg">
+												        <a href="">
+												          <img class="img-responsive" src="../images/images/06 Spaces/08 DREAM Studio (Visual Content Creation Studio)/03 DREAM Studio.jpg">
+												       
+												        </a>
+												      </li>
+											
+						
+												      
+												    </ul>
+												  </div>
+												</div>
+
+
+
+						<div class="buttons margin-bottom"><br><br>
+							<center><a href="https://www.theparcfoundation.ph/PARCRESERVATION.html" target="_blank" class="btn btn-lg">BOOK NOW</a></center>
+						</div>
+								
+								
+							</div>
+						</article>
+					</main>
+
+
+					<!--/ Post -->
+					<div class="col-md-4">
+					<!-- sideBar -->
+					<aside class="sidebar">
+						<div class="row">
+							<div class="col-sm-6 col-md-12">
+							
+							</div>
+							<div class="col-sm-6 col-md-12">
+								<!-- Recent Posts -->
+								<section class="widget widget-posts">
+									<h4 class="widget-title">Recent Posts</h4>
+									<ul>
+										<li class="post">
+											<a class="post-image" href="#"><img src="../images/images/temp/post-thumb-1.jpg" alt=""/></a>
+											<h5 class="post-title"><a href="#">The Spirit of Giving is Alive in The PARC Foundation's Performing Arts Ball</a></h5>
+											<div class="post-meta">
+												<span class="date">December 11, 2019</span>
+											</div>
+										</li>
+										<li class="post">
+											<a class="post-image" href="#"><img src="../images/images/temp/post-thumb-2.jpg" alt=""/></a>
+											
+											<h5 class="post-title"><a href="#">"Spirit of Giving"</a></h5>
+											<div class="post-meta">
+												<span class="date">December 11, 2019</span>
+											</div>
+										</li>
+										<li class="post">
+											<a class="post-image" href="#"><img src="../images/images/temp/post-thumb-3.jpg" alt=""/></a>
+											
+											<h5 class="post-title"><a href="#">"Spirit of Giving" events rides high</a></h5>
+											<div class="post-meta">
+												<span class="date">December 11, 2019</span>
+											</div>
+										</li>
+										<li class="post">
+											<a class="post-image" href="#"><img src="../images/images/temp/post-thumb-4.jpg" alt=""/></a>
+											
+											<h5 class="post-title"><a href="#">PARC Foundation inaugurates Wilmer Ong Guido Hall</a></h5>
+											<div class="post-meta">
+												<span class="date">December 11, 2019</span>
+											</div>
+										</li>
+									</ul>
+								</section>
+								<!--/ Recent Posts -->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 col-md-12">
+								<!-- Calendar -->
+								<section class="widget widget-calendar">
+									<h4 class="widget-title">Calendar</h4>
+									<input type="text" name="calendar" value="" class="calendar">
+								</section>
+								<!--/ Calendar -->
+							</div>
+					
+						</div>
+						
+						<div class="row">
+							
+							<div class="col-sm-6 col-md-12">
+								<!-- Archives -->
+								<section class="widget widget-archives">
+									<h4 class="widget-title">Events</h4>
+									<ul class="archives clearfix">
+										<li><a href="/images/events.html">2020</a></li>
+										<li><a href="/images/events.html">2019</a></li>
+										<li><a href="/images/events.html">2018</a></li>
+										<li><a href="/images/events.html">2017</a></li>
+										<li><a href="/images/events.html">2016</a></li>
+									</ul>
+								</section>
+								<!--/ Archives -->
+							</div>
+						</div>
+						
+						</div>
+					</aside>
+					<!--/ sideBar -->
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!--/ Content -->
+	<!-- Footer -->
+	<footer class="footer overlay">
+		<div class="container scroll fadeInDown">
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="social-links">
+					<a href="https://www.facebook.com/parcph" target="_blank" class="icon-facebook"></a>
+            
+            
+            <a href="https://www.instagram.com/parcph" target="_blank" class="icon-instagram"></a>
+						
+					</div>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="copyright">&copy; Copyright 2020 <a href="#"></a></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--/ Footer -->
+	<!-- Back to Top Button -->
+	<a href="#header" id="toTop" class="anchor" data-become-visible="2000"><i class="icon-arrow-up-alt"></i></a>
+	<!--/ Back to Top Button -->
+	
+<!-- JS Placed at the end of the document for faster page loading -->
+<!-- Libs -->
+<script src="../images/js/libs/jquery-1.11.1.min.js"></script>
+<script src="../images/js/libs/jquery-ui.min.js"></script>
+<script src="../images/js/libs/bootstrap.min.js"></script>
+<!--[if lt IE 9]><script src="../images/js/libs/respond.min.js"></script><![endif]-->
+<!-- NiceScroll -->
+<script src="../images/js/jquery.nicescroll.min.js"></script>
+<!-- CarouFredSel -->
+<script src="../images/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<!-- TouchSwipe -->
+<script src="../images/js/jquery.touchSwipe.min.js"></script>
+<!-- Isotope -->
+<script src="../images/js/isotope.pkgd.min.js"></script>
+<!-- prettyPhoto -->
+<script src="../images/js/jquery.prettyPhoto.js"></script>
+<!-- Placeholders -->
+<script src="../images/js/jquery.powerful-placeholder.min.js"></script>
+<!-- Styled Select -->
+<script src="../images/js/cusel.min.js"></script>
+<!-- Calendar -->
+<script src="../images/js/jquery-ui.multidatespicker.js"></script>
+<!-- TweenLite, used for smooth scrolling -->
+<script src="../images/js/TweenLite.min.js"></script>
+<script src="../images/js/ScrollToPlugin.min.js"></script>
+<!-- General Scripts -->
+<script src="../images/js/general.js"></script>
+<script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+
+<script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+
+<script>
+	
+lightGallery(document.getElementById('lightgallery'))
+lightGallery(document.getElementById('lightgallery2'))
+lightGallery(document.getElementById('lightgallery3'))
+lightGallery(document.getElementById('lightgallery4'))
+lightGallery(document.getElementById('lightgallery5'))
+lightGallery(document.getElementById('lightgallery6'))
+lightGallery(document.getElementById('lightgallery7'))
+lightGallery(document.getElementById('lightgallery8'))
+lightGallery(document.getElementById('lightgallery9'))
+lightGallery(document.getElementById('lightgallery10'))
+lightGallery(document.getElementById('lightgallery11'))
+lightGallery(document.getElementById('lightgallery12'))
+lightGallery(document.getElementById('lightgallery13'))
+lightGallery(document.getElementById('lightgallery14'))
+lightGallery(document.getElementById('lightgallery15'))
+lightGallery(document.getElementById('lightgallery16'))
+lightGallery(document.getElementById('lightgallery17'))
+lightGallery(document.getElementById('lightgallery18'))
+lightGallery(document.getElementById('lightgallery19'))
+lightGallery(document.getElementById('lightgallery20'))
+lightGallery(document.getElementById('lightgallery21'))
+lightGallery(document.getElementById('lightgallery22'))
+
+
+
+
+
+</script>
+</body>
+</html>

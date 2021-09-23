@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html lang="en" class="no-js oldie"><![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"><!--<![endif]-->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WPWGNL');</script>
+<!-- End Google Tag Manager -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>News and Updates</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<!-- Core CSS -->
+	<link href="../images/css/bootstrap.css" media="screen" rel="stylesheet" type="text/css">
+	<link href="../images/style.css" media="screen" rel="stylesheet" type="text/css">
+	<!-- FontAwesome.css -->
+	<link href="../images/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+	<!-- Animate.css -->
+	<link href="../images/css/animate.css" media="screen" rel="stylesheet" type="text/css">
+	<!-- Settings Panel, just for Demo purposes -->
+	<link href="../images/panel/panel.css" media="screen" rel="stylesheet" type="text/css">
+	<link id="color-scheme" href="#" media="screen" rel="stylesheet" type="text/css">
+	<!-- Modernizr Library -->
+	<script src="../images/js/libs/modernizr.min.js"></script>
+	<style>
+		/* Modal Content */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header{
+     background-color:#ec7f23;
+}
+.modal-content {
+    overflow:hidden;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #ec7f23;
+    color: white;
+}
+}
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+ .btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(to right, #f6d365 0%, #fff 51%, #f6d365 100%);
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 15%;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+	</style>
+</head>
+<body data-spy="scroll" data-target="#navigation">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WPWGNL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<a class="logo invisible" href="../index.html"><img src="images/logoparc.png" alt=""/></a>
+	<!-- Header -->
+	<header id="header" class="header">
+		<!-- Loader -->
+		<div class="loader invisible">
+			<div class="loader-part-1"></div>
+			<div class="loader-part-2"></div>
+			<div class="loader-part-3"></div>
+		</div>
+		<!--/ Loader -->
+		<!-- Main Header -->
+		<div id="main-header" class="main-header invisible">
+			<div class="item active parallax overlay" data-image="../images/images/temp/news.jpg">
+				<div class="carousel-desc">
+					
+					<h1 class="page-title" data-animate-in="zoomIn">News and Updates</h1>
+					
+				</div>
+			</div>
+		</div>
+		<!--/ Main Header -->
+	</header>
+	<!--/ Header -->
+	<!-- Menu -->
+	<div class="navigation-placeholder invisible">
+		<nav id="navigation" class="navigation sticky-menu">
+			<ul class="nav clearfix">
+					<li><a class="anchor" href="https://www.theparcfoundation.ph/" target="_blank">Home</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#about" target="_blank">About Us</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#programs">Programs</a></li>
+				<li><a class="anchor" href="/images/spaces.html" target="_blank">Book A Space</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#events" target="_blank">Events</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#testimonials" target="_blank">Testimonials</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#support" target="_blank">Support Us</a></li>
+				<li><a class="active" href="https://www.theparcfoundation.ph#news">News</a></li>
+				<li><a class="anchor" href="https://www.theparcfoundation.ph#contact" target="_blank">Contact Us</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!--/ Menu -->
+	<!-- Content -->
+	<div class="section section-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<!-- PostList -->
+					<main class="postlist">
+
+						<article class="post">
+							<h2 class="post-title"><a href="https://www.facebook.com/parcph/photos/a.464451167090905/1381782838691062/?type=3&theater" target="_blank">Project Tempo</a></h2>
+							<div class="post-meta">
+								<span class="date">July 15, 2020</span>
+								
+							</div>
+							<div class="post-image pull-left"><img src="/images/images/events/new event/Capture.PNG" alt=""/></div>
+							<div class="post-content">
+								<p>UPDATE! Here's a #ProjectTEMPO Fundraiser Update! Over the past month, we have now raised Php 45,015! It's slow and steady progress and we would like to thank all our generous donors for helping our #PARCaralan scholars!..</p>
+							</div>
+							<div class="post-meta clearfix">
+								<a href="https://www.facebook.com/parcph/photos/a.464451167090905/1381782838691062/?type=3&theater" target="_blank" class="btn pull-left">Learn More</a>
+							
+							</div>
+						</article>
+
+						<article class="post">
+							<h2 class="post-title"><a href="https://www.facebook.com/parcph/videos/694899277741866/UzpfSTQ2Mzc5NTY0MzgyMzEyNDoxMzQ1Njg5NTU1NjMzNzI0/" target="_blank">The 4th PARC Foundation Day</a></h2>
+							<div class="post-meta">
+								<span class="date">July 15, 2020</span>
+								
+							</div>
+							<div class="post-image pull-left"><img src="images/news/Capture1.PNG" alt=""/></div>
+							<div class="post-content">
+								<p>🙌 THANK YOU 👏 for joining us in The 4th PARC Foundation Day: Relive the Passion! 🎶💃🎭
+
+									To "relive the passion" you can check out our Facebook Live video right here: https://www.facebook.com/parcph/videos/694899277741866...</p>
+							</div>
+							<div class="post-meta clearfix">
+								<a href="https://www.facebook.com/parcph/videos/694899277741866/UzpfSTQ2Mzc5NTY0MzgyMzEyNDoxMzQ1Njg5NTU1NjMzNzI0/" target="_blank" class="btn pull-left">Learn More</a>
+							
+							</div>
+						</article>
+
+						<article class="post">
+							<h2 class="post-title"><a href="https://www.facebook.com/parcph/photos/a.470999389769416/1363355943867085/?type=3&theater" target="_blank">Project Tempo</a></h2>
+							<div class="post-meta">
+								<span class="date">June 22, 2019</span>
+								
+							</div>
+							<div class="post-image pull-left"><img src="images/news/Capture3.PNG" alt=""/></div>
+							<div class="post-content">
+								<p>Catch the Prince of Broadway Jon Joven Uy LIVE on Zoom and Facebook Live TONIGHT at 6:30 pm! 🤩🎤...</p>
+							</div>
+							<div class="post-meta clearfix">
+								<a href="https://www.facebook.com/parcph/photos/a.470999389769416/1363355943867085/?type=3&theater" target="_blank" class="btn pull-left">Learn More</a>
+							
+							</div>
+						</article>
+
+						<article class="post">
+							<h2 class="post-title"><a href="https://www.facebook.com/parcph/photos/a.470999389769416/1271905803012100/?type=3&theater" target="_blank">"REISE: Mixed Voices in Manila"</a></h2>
+							<div class="post-meta">
+								<span class="date">February 27, 2020</span>
+								
+							</div>
+							<div class="post-image pull-left"><img src="images/news/Capture2.PNG" alt=""/></div>
+							<div class="post-content">
+								<p>	Here's a wunderbar picture of Mixed Voices with our #PARCaralan Music Scholars after their choral workshop last Sunday! Listen to this wonderful collaboration TONIGHT!....</p>
+							</div>
+							<div class="post-meta clearfix">
+								<a href="https://www.facebook.com/parcph/photos/a.470999389769416/1271905803012100/?type=3&theater" target="_blank" class="btn pull-left">Learn More</a>
+							
+							</div>
+						</article>
+
+						<article class="post">
+							<h2 class="post-title"><a href="https://www.philstar.com/lifestyle/allure/2020/01/12/1983958/carrying-torch" target="_blank">Carrying the torch</a></h2>
+							<div class="post-meta">
+								<span class="date">May 31, 2019</span>
+								
+							</div>
+							<div class="post-image pull-left"><img src="../images/images/wtg1.JPG" alt=""/></div>
+							<div class="post-content">
+								<p>In the natural order of things, we’ll often read about how a foundation or a notable endeavor is dedicated to the memory of a father or mother, how the children are carrying on a tradition set by their parents.</p>
+								<p>In the case of PARC, the Performing Arts and Recreation Center Foundation, found on Lt. Artiaga St. in San Juan City, there’s a unique reversal of order an exemplary vision started by a son, and now carried on by his father, due to the son’s untimely demise..</p>
+							</div>
+							<div class="post-meta clearfix">
+								<a href="https://www.philstar.com/lifestyle/allure/2020/01/12/1983958/carrying-torch" target="_blank" class="btn pull-left">Learn More</a>
+							
+							</div>
+						</article>
+
+						<article class="post">
+							<h2 class="post-title">"Spirit of Giving" events rides high</h2>
+							<div class="post-meta">
+								<span class="date">December 27, 2019</span>
+							
+							</div>
+							<div class="post-image pull-right"><img src="../images/images/sog3.JPG" alt=""/></div>
+							<div class="post-content">
+								<p>Co-founder and executive director of the Performing Arts and Recreation Center (PARC) Foundation Issay Nodalo gets emotional thinking about the the success of the first-ever “Spirit of Giving: The Performing Arts Ball” held recently at Conrad Manila.</p>
+								<p>The concert featured world-class performers from the Philippines and Singapore like Morissette Amon, The CompanY, Corey Koh, and Michelle SgP. Attendees also sang and danced to the beloved Christmas classics of Jose Mari Chan, Manila Philharmonic Orchestra, and Philippine Ballet Theatre.</p>
+							</div>
+							<div class="post-meta clearfix">
+								<a href="https://entertainment.mb.com.ph/2019/12/27/spirit-of-giving-event-rides-high/?fbclid=IwAR1w0zvm0sDNfVy2Xk_rEHozhhWf2o5vxUT8j40cgYfpkijctm4Gt7pJp-Y" target="_blank" class="btn pull-left">Learn More</a>
+						
+							</div>
+						</article>
+
+						<article class="post">
+							<h2 class="post-title"><a href="https://entertainment.mb.com.ph/2019/12/27/spirit-of-giving-event-rides-high/?fbclid=IwAR1w0zvm0sDNfVy2Xk_rEHozhhWf2o5vxUT8j40cgYfpkijctm4Gt7pJp-Y" target="_blank">PARC Foundation inaugurates Wilmer Ong Guido Hall</a></h2>
+							<div class="post-meta">
+								<span class="date">December 20, 2019</span>
+								
+							</div>
+							<div class="post-image pull-left"><img src="../images/images/news1.JPG" alt=""/></div>
+							<div class="post-content">
+								<p>Two years after the Performing Arts and Recreation Center (PARC) Foundation founder Wilmer Ong Guido passed away, the name of the building’s main studio was made eponymous.</p>
+								<p>Wilmer’s father, William T. Guido, current chairman and among board of trustees of PARC Foundation, said the venue is envisioned to be the dance park for the career of emerging and budding Filipino artists, including the PARCalaran scholars.</p>
+							</div>
+							<div class="post-meta clearfix">
+								<a href="https://entertainment.mb.com.ph/2019/12/27/spirit-of-giving-event-rides-high/?fbclid=IwAR1w0zvm0sDNfVy2Xk_rEHozhhWf2o5vxUT8j40cgYfpkijctm4Gt7pJp-Y" target="_blank" class="btn pull-left">Learn More</a>
+							
+							</div>
+						</article>
+
+						<article class="post">
+							<h2 class="post-title">The Spirit of Giving is Alive in The PARC Foundation's Performing Arts Ball</h2>
+							<div class="post-meta">
+								<span class="date">December 11, 2019</span>
+							</div>
+							<div class="post-image"><img src="../images/images/sog1.JPG" alt=""/></div>
+							<div class="post-content">
+								<p>The Performing Arts and Recreation Center (PARC) Foundation held their most celebrated fundraising event yet last December 11 entitled “Spirit of Giving:The Performing Arts Ball” at the Conrad Hotel Grand Ballroom, Mall of Asia Complex, Pasay City. The event aimed to raise funds for the foundation’s PARCaralan Program which provides educational assistance and free performing arts training to underprivileged youth in the Philippines, particularly in San Juan and Tondo, Manila.</p>
+							</div>
+							<div class="post-meta clearfix">
+								<button class="modal-button btn btn-1" href="#myModal1">Learn More</button>
+							</div>
+						</article>
+						<article class="post">
+							<h2 class="post-title">Spirit of Giving"</h2>
+							<div class="post-meta">
+								<span class="date">December 11, 2019</span>
+								
+							</div>
+							<div class="post-image pull-left"><img src="../images/images/sog2.JPG" alt=""/></div>
+							<div class="post-content">
+								<p>“Spirit of Giving: The Performing Arts Ball” is presented by The PARC Foundation in cooperation with Singapore Embassy in Manila, Global Cultural Alliance, Millet World, Chinoy TV..</p>
+							</div>
+							<div class="post-meta clearfix">
+								<button class="modal-button btn btn-1" href="#myModal2">Learn More</button>
+							
+							</div>
+						</article>
+						
+						
+					</main>
+					<!--/ PostList -->
+					<!-- Pagination -->
+					<ul class="pagination">
+						<li><a href="#" class="icon-arrow-left-alt"></a></li>
+						
+						<li class="active"><span>1</span></li>
+						<li><a href="#">2</a></li>
+						<!--<li><span>&hellip;</span></li>
+						<li><a href="#">63</a></li>
+						<li><a href="#">64</a></li>-->
+						<li><a href="#" class="icon-arrow-right-alt"></a></li>
+					</ul>
+					<!--/ Pagination -->
+				</div>
+				<div class="col-md-4">
+					<!-- sideBar -->
+					<aside class="sidebar">
+						<div class="row">
+							<div class="col-sm-6 col-md-12">
+							
+							</div>
+							<div class="col-sm-6 col-md-12">
+								<!-- Recent Posts -->
+								<section class="widget widget-posts">
+									<h4 class="widget-title">Recent Posts</h4>
+									<ul>
+										<li class="post">
+											<a class="post-image" href="#"><img src="../images/images/temp/post-thumb-1.jpg" alt=""/></a>
+											<h5 class="post-title"><a href="#">The Spirit of Giving is Alive in The PARC Foundation's Performing Arts Ball</a></h5>
+											<div class="post-meta">
+												<span class="date">December 11, 2019</span>
+											</div>
+										</li>
+										<li class="post">
+											<a class="post-image" href="#"><img src="../images/images/temp/post-thumb-2.jpg" alt=""/></a>
+											
+											<h5 class="post-title"><a href="#">"Spirit of Giving"</a></h5>
+											<div class="post-meta">
+												<span class="date">December 11, 2019</span>
+											</div>
+										</li>
+										<li class="post">
+											<a class="post-image" href="#"><img src="../images/images/temp/post-thumb-3.jpg" alt=""/></a>
+											
+											<h5 class="post-title"><a href="#">"Spirit of Giving" events rides high</a></h5>
+											<div class="post-meta">
+												<span class="date">December 11, 2019</span>
+											</div>
+										</li>
+										<li class="post">
+											<a class="post-image" href="#"><img src="../images/images/temp/post-thumb-4.jpg" alt=""/></a>
+											
+											<h5 class="post-title"><a href="#">PARC Foundation inaugurates Wilmer Ong Guido Hall</a></h5>
+											<div class="post-meta">
+												<span class="date">December 11, 2019</span>
+											</div>
+										</li>
+									</ul>
+								</section>
+								<!--/ Recent Posts -->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 col-md-12">
+								<!-- Calendar -->
+								<section class="widget widget-calendar">
+									<h4 class="widget-title">Calendar</h4>
+									<input type="text" name="calendar" value="" class="calendar">
+								</section>
+								<!--/ Calendar -->
+							</div>
+					
+						</div>
+						
+						<div class="row">
+							
+							<div class="col-sm-6 col-md-12">
+								<!-- Archives -->
+								<section class="widget widget-archives">
+									<h4 class="widget-title">Events</h4>
+									<ul class="archives clearfix">
+										<li><a href="/images/events.html" target="_blank">2020</a></li>
+										<li><a href="/images/events.html" target="_blank">2019</a></li>
+										<li><a href="/images/events.html" target="_blank">2018</a></li>
+										<li><a href="/images/events.html" target="_blank">2017</a></li>
+										<li><a href="/images/events.html" target="_blank">2016</a></li>
+									</ul>
+								</section>
+								<!--/ Archives -->
+							</div>
+						</div>
+						
+						</div>
+					</aside>
+					<!--/ sideBar -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/ Content -->
+	<!-- Footer -->
+	<footer class="footer overlay">
+		<div class="container scroll fadeInDown">
+			<div class="row">
+				<div class="col-sm-8">
+					<div class="social-links">
+						<a href="https://www.facebook.com/parcph" target="_blank" class="icon-facebook"></a>
+						
+						
+						<a href="https://www.instagram.com/parcph" target="_blank" class="icon-instagram"></a>
+					
+					</div>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="copyright">&copy; Copyright 2020 <a href="#"></a></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--/ Footer -->
+	<!-- Back to Top Button -->
+	<a href="#header" id="toTop" class="anchor" data-become-visible="2000"><i class="icon-arrow-up-alt"></i></a>
+	<!--/ Back to Top Button -->
+	<!--modal-->
+
+      <div id="myModal1" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <center><h2 style="color: #fff; font-size: 32px;">The Spirit of Giving is Alive in The PARC Foundation's Performing Arts Ball</h2></center>
+    </div>
+    <div class="modal-body">
+<img src="images/advertorialtop.JPG" class="img img-responsive" /><br>
+                  <div class="col-lg-6">
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">The Performing Arts and Recreation Center (PARC) Foundation held their most celebrated fundraising event yet last December 11 entitled “Spirit of Giving:The Performing Arts Ball” at the Conrad Hotel Grand Ballroom, Mall of Asia Complex, Pasay City. The event aimed to raise funds for the foundation’s PARCaralan Program which provides educational assistance and free performing arts training to underprivileged youth in the Philippines, particularly in San Juan and Tondo, Manila.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px; font-size: 12px">This exclusive red carpet charity ball is the first of its kind in the Philippines, highlighting the potential of performing arts to transform the lives of the Filipino youth. The event was done in cooperation with the Singapore Embassy in Manila,Global Cultural Alliance, Millet World, Chinoy TV, and Manila Bulletin. The evening also serves as a culminating event for the 50th anniversary of the bilateral ties between Singapore and the Philippines.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px"><b>“May the spirit of Christmas be always in our hearts…”</b></p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">The Christmas spirit of generosity was unmistakable in theair of the ballroom. The pre-event program featured a charity auction. Items generously donated to The PARC Foundation for the event were open for bidding, featuring artworks by Juvenal Sanso, Ranjit Das, Master Sun Yu-li, the winners of the National Digital Arts Awards, and a Steinway B-211 grand piano from Steinway Boutique Manila.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">The main program began with acknowledging the presenceof the evening’s guests of honor: Senator Emmanuel “Manny” Pacquiao and Vice Mayor of the City of Manila Ma. Sheilah "Honey" Lacuna-Pangan, who have both wholeheartedly expressed their support for the youth and the arts.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">Moreover, Mr. Edgar Saavedra, Chairman of Megawide Foundation, received a plaque of appreciation from The PARC foundation for their pledge of long-term partnership.From this point, a pioneering life skills exchange program is underway to train scholars from the families of Megawide Foundation employees and, at the same time, provide career opportunities to the families of PARCaralan scholars.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px"><b>“Dreams inspire worlds for change… lead us to better places…”</b></p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">For this one special night, performing artists from different generations, belonging to different nations and spanning different genres gathered to give PARC’s supporters a glimpse of what the PARCaralan Scholars can be in the near future.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">The PARCaralan Music Scholars with their stringinstruments, together with the young hip-hop troupe Stylo Mylo Crew from Singapore’s Little Arts Academy, and the budding singer Christine Gabrielle Francisco gave a rousing collaboration of Whitney Houston’s “Greatest Love of All.”</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">Dazzling performances kept the crowd on the edge of their seats as homegrown talents from both the Philippines and Singapore entertained the audience. Gracing the stage were “Asia’s Phoenix” Morissette Amon, foremost vocal harmony group The CompanY, and the country’s beloved Father of Christmas Carols, Mr. Jose Mari Chan.</p>
+    
+                  </div>
+
+                  <div class="col-lg-6">
+
+                    <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">The Manila Philharmonic Orchestra under the baton of Maestro Rodel Colmenar, an excerpt of “The Nutcracker” by Philippine Ballet Theatre, and renowned pianist and member of PARC's Board of Trustees Dr. Raul Sunico gave a spotlight on more Christmas classics, the rich sounds of the Steinway & Sons grand piano echoing throughout the ballroom.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">To represent Singapore, Corey Koh exhibited hisexceptional skills as a 17-year old classical tenor, while international jazz singer Michelle SgP serenaded the crowd with her original song “Dreams,” a highly significant song that carried the theme of the night.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px; font-size: 12px"><b>“A million dreams are keeping me awake…”</b></p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">You may recall the hit 2017 biographical movie-musical featuring the visionary achievements of a poor tailor’s son,who achieved his dreams through grit, wit, and belief in those who society has given up on.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">Almost 200 years later, the heart of “The Greatest Showman’s” P.T. Barnum has lived on in one particular advocate for the arts, his dream and vision transcending from himself into the hearts of countless others.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">More than a fundraising event, the night was also a tributeto The PARC Foundation’s young and visionary founder,Wilmer Ong Guido. Very much like P.T. Barnum, Wilmer believed in where his dreams could take him. Wilmer envisioned providing a safe space for artists to grow and hone their crafts in a cultural center in San Juan.Unfortunately, his untimely passing in late 2017 put those dreams on hold as he left a gaping hole in the foundation’s heart.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">January 2019 came as a breath of fresh air as co-founder Ms. Issay Nodalo stepped up to become PARC’s Executive Director with the newfound support of Mr.William Guido,Chairman and CEO of the Guido Group of Companies and Wilmer’s father.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">The past year saw PARC grow exponentially through partnerships, networks, donors, and patrons. Support came in the form of partnerships with Singaporean group The RICE Company Limited and its subsidiariesGlobal Cultural Alliance and Millet World, leading to the Singapore Embassy in the Philippines showing their support for the future of the foundation.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px">It seems that Wilmer’s dream is slowly coming together as it should be. By 2025,The PARC Foundation aims to reach the goal of 300 scholars helped, supported, and provided for. With this season’s Spirit of Giving, we can see that not one, but a million dreams have indeed taken flight for the night.</p>
+
+                   <p style="text-align:justify; margin-right: 10px; margin-left: 10px ; font-size: 12px"><b>For more information, you may visit www.theparcfoundation.ph or facebook.com/PARCph or contact (02) 8350 6356.</b></p>
+
+                
+
+                  
+                  </div>
+                   
+        
+                   <br><br>
+                   <img src="images/advertorialbot.JPG" class="img img-responsive" />
+               
+    
+    </div>
+   
+  </div>
+
+</div>
+
+    <!--modal1-->
+
+    <div id="myModal2" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <center><h2 style="color: #fff; font-size: 32px;">"Spirit of Giving"</h2></center>
+    </div>
+    <div class="modal-body">
+ <div class="modal-body" style="padding: 30px;">
+                   <img src="images/sog_1.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog2.jpg" class="img img-responsive" /><br>
+                   <p style="text-align:justify">Here’s a glimpse of the opening ceremonies from “Spirit of Giving” featuring our esteemed Guests of Honor, Senator Manny Pacquiao and Vice Mayor Honey Lacuna of the City of Manila (Manila Public Information Office). We also thank Mr. Ed Saavedra and Megawide Foundation’s generosity towards the future of the #PARCaralan Program and its scholars. A massive show of gratitude as well to our lovely Master of Ceremonies for the evening who kept our guests alive and kicking, Ms. Issa Litton!</p>
+                   <p style="text-align:justify">“Spirit of Giving: The Performing Arts Ball” is presented by The PARC Foundation in cooperation with Singapore Embassy in Manila, Global Cultural Alliance, Millet World, Chinoy TV 菲華電視台, and MANILA BULLETIN for the benefit of our #PARCaralan scholars 👭👬 #PerformingArtsBall #SpiritofGiving2019 #PARCph
+                   </p>
+				<br><br><hr>
+
+				   <img src="images/sog3.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog4.jpg" class="img img-responsive" /><br>
+
+                   <p style="text-align:justify">“Wisdom made me realize I cannot do it on my own. Because I experienced how it is to win with the help of others, I am all the more committed to help others win.”</p>
+                   <p style="text-align:justify">We would like to thank our Guest of Honor, Honorable Senator Manny Pacquiao for supporting our scholars. May they look up to you as a symbol of resilience and determination in the face of life’s trials. Mabuhay ka, Pacman!
+                   </p>
+                   <br><br><hr>
+
+
+                   <img src="images/sog5.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog6.jpg" class="img img-responsive" /><br>
+
+                   <p style="text-align:justify">“We join you in your initiative...in your creative intervention and creative actions to change the lives of the gifted underprivileged children and struggling artists.”</p>
+                   <p style="text-align:justify">We would like to thank the Vice Mayor of the City of Manila (Manila Public Information Office), Honorable Dr. Honey Lacuna for gracing our event and representing the City of Manila and Mayor Isko Moreno Domagoso’s support for the #PARCaralan Program and its scholars.
+                   </p>
+                   <br><br><hr>
+
+                    <img src="images/sog7.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog8.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog9.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog10.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog11.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog12.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog13.jpg" class="img img-responsive" /><br>
+
+                   <p style="text-align:justify">Let the show begin! We were treated to a feast for the eyes and ears as these artists opened up everyone’s hearts to the performing arts. Thank you to Morissette Amon, The CompanY, Jose Mari Chan, Manila Philharmonic Orchestra, Philippine Ballet Theatre, Corey Koh, Dr. Raul M. Sunico, and Michelle SgP for sharing the stage and your talents to our audience 🎶🎤🎻💃 The evening was truly a celebration of the performing arts for the Philippines and Singapore for our #PARCaralan Scholars and the #SGPH50 anniversary this 2019 🇸🇬🇵🇭</p>
+                   
+                   <br><br><hr>
+
+
+                    <img src="images/sog14.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog15.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog16.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog17.jpg" class="img img-responsive" /><br>
+                   <img src="images/sog18.jpg" class="img img-responsive" /><br>
+                 
+
+                   <p style="text-align:justify">And that’s a wrap! The PARC Foundation wishes to extend their most heartfelt gratitude to everyone who attended “Spirit of Giving: The Performing Arts Ball!” To all our partners, sponsors, guests, friends and family, and the whole team involved in the success of this evening. The Spirit of Giving could indeed be felt with the Christmas cheer. We hope to see you all at The PARC soon! 🧡✨</p>
+                   
+                   <br><br><hr>
+               
+
+                </div>
+               
+    
+    </div>
+   
+  </div>
+
+</div>
+
+
+	
+<!-- JS Placed at the end of the document for faster page loading -->
+<!-- Libs -->
+<script src="../images/js/libs/jquery-1.11.1.min.js"></script>
+<script src="../images/js/libs/jquery-ui.min.js"></script>
+<script src="../images/js/libs/bootstrap.min.js"></script>
+<!--[if lt IE 9]><script src="../images/js/libs/respond.min.js"></script><![endif]-->
+<!-- NiceScroll -->
+<script src="../images/js/jquery.nicescroll.min.js"></script>
+<!-- CarouFredSel -->
+<script src="../images/js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<!-- TouchSwipe -->
+<script src="../images/js/jquery.touchSwipe.min.js"></script>
+<!-- Isotope -->
+<script src="../images/js/isotope.pkgd.min.js"></script>
+<!-- prettyPhoto -->
+<script src="../images/js/jquery.prettyPhoto.js"></script>
+<!-- Placeholders -->
+<script src="../images/js/jquery.powerful-placeholder.min.js"></script>
+<!-- Styled Select -->
+<script src="../images/js/cusel.min.js"></script>
+<!-- Calendar -->
+<script src="../images/js/jquery-ui.multidatespicker.js"></script>
+<!-- TweenLite, used for smooth scrolling -->
+<script src="../images/js/TweenLite.min.js"></script>
+<script src="../images/js/ScrollToPlugin.min.js"></script>
+<!-- General Scripts -->
+<script src="../images/js/general.js"></script>
+<!-- Settings Panel, just for Demo purposes -->
+<script src="../images/panel/panel.js"></script>
+<script>
+	// Get the button that opens the modal
+var btn = document.querySelectorAll("button.modal-button");
+
+// All page modals
+var modals = document.querySelectorAll('.modal');
+
+// Get the <span> element that closes the modal
+var spans = document.getElementsByClassName("close");
+
+// When the user clicks the button, open the modal
+for (var i = 0; i < btn.length; i++) {
+ btn[i].onclick = function(e) {
+    e.preventDefault();
+    modal = document.querySelector(e.target.getAttribute("href"));
+    modal.style.display = "block";
+ }
+}
+
+// When the user clicks on <span> (x), close the modal
+for (var i = 0; i < spans.length; i++) {
+ spans[i].onclick = function() {
+    for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+    }
+ }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+     for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+     }
+    }
+}
+</script>
+<script>
+	function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>
