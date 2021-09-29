@@ -5303,8 +5303,14 @@ code {
   height: 60px;
   line-height: 56px;
   padding: 0 30px;
- 
+  color: black;
 }
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 1119px) {
