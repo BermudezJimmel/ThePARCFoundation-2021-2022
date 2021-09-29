@@ -5275,7 +5275,7 @@ code {
 .btn:focus,
 .btn:active {
   border-color: rgba(236,127,35);
-  color: #fff;
+  color: white;
 }
 .btn:hover:before,
 .btn:focus:before,
@@ -5303,7 +5303,10 @@ code {
   height: 60px;
   line-height: 56px;
   padding: 0 30px;
+ 
 }
+
+
 @media only screen and (max-width: 1119px) {
   .btn.btn-lg {
     height: 40px;
