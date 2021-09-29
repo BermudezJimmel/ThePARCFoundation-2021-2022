@@ -5240,7 +5240,7 @@ code {
   -moz-border-radius: 0;
   border-radius: 0;
   background-color: transparent;
-  color: #EC7F23;
+  color: rgba(236,127,35);
   white-space: nowrap;
   text-transform: uppercase;
   letter-spacing: 1px;
