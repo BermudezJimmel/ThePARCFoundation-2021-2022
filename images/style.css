@@ -5275,7 +5275,7 @@ code {
 .btn:focus,
 .btn:active {
   border-color: rgba(236,127,35);
-  color: white;
+  color: black;
 }
 .btn:hover:before,
 .btn:focus:before,
