@@ -5240,7 +5240,7 @@ code {
   -moz-border-radius: 0;
   border-radius: 0;
   background-color: transparent;
-  color: rgba(236,127,35);
+  color: #EC7F23;
   white-space: nowrap;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -5275,7 +5275,7 @@ code {
 .btn:focus,
 .btn:active {
   border-color: rgba(236,127,35);
-  color: black;
+  color: white;
 }
 .btn:hover:before,
 .btn:focus:before,
