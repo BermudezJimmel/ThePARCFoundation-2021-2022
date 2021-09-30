@@ -10655,3 +10655,57 @@ div.ppt {
   z-index: 9999;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* Slider SOG 2021 */
+
+
+
+#sogsbm .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#sogsbm img{
+  max-width: 600px;
+}
+
+#sogsbm .right1{
+  margin-top: 50px;
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    #sogsbm img{
+      max-width: 300px;
+    }
+
+    #sogsbm .right1{
+      margin-top: 20px;
+    }
+    
+
+
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #sogsbm img{
+      max-width: 300px;
+    }
+
+    #sogsbm .right1{
+      margin-top: 0px;
+    }
+
+}
