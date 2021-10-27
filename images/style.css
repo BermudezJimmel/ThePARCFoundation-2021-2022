@@ -10674,8 +10674,12 @@ div.ppt {
 
 #sogsbm .right1{
   margin-top: 50px;
+  max-width: 800px;
 }
 
+#sogsbm .right2{
+  margin-top: 50px;
+}
 
 @media only screen 
   and (min-device-width: 768px) 
@@ -10687,6 +10691,10 @@ div.ppt {
     }
 
     #sogsbm .right1{
+      
+      max-width: 350px;
+    }
+    #sogsbm .right2{
       margin-top: 20px;
     }
     
@@ -10706,6 +10714,10 @@ div.ppt {
 
     #sogsbm .right1{
       margin-top: 0px;
+      max-width: 300px;
+    }
+    #sogsbm .right2{
+      margin-top: 20px;
     }
 
 }
