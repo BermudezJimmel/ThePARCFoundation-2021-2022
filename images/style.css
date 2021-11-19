@@ -10767,3 +10767,112 @@ div.ppt {
     }
 
 }
+
+
+
+
+#parcdonate .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#parcdonate img{
+  max-width: 500px;
+}
+
+#parcdonate .right1{
+  margin-top: 100px;
+  max-width: 600px;
+}
+
+#parcdonate .right2{
+  margin-top: 50px;
+}
+
+#parcdonate .box .button{
+  margin-top: 20px;
+  background-color: #FED200;
+  color: black;
+  border-radius: 30px;
+  padding: 30px 40px 30px 40px;
+  
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  cursor: pointer;
+  background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,88,33,1) 0%, rgba(254,210,0,1) 100%);
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    #parcdonate img{
+      max-width: 300px;
+    }
+
+    #parcdonate .right1{
+      
+      max-width: 350px;
+    }
+    #parcdonate .right2{
+      margin-top: 20px;
+    }
+
+    #parcdonate .box .button{
+      margin-top: 20px;
+      background-color: #FED200;
+      color: black;
+      border-radius: 30px;
+      padding: 20px 30px 20px 30px;
+      
+      font-family: sans-serif;
+      font-size: 20px;
+      font-weight: bolder;
+      cursor: pointer;
+      background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,88,33,1) 0%, rgba(254,210,0,1) 100%);
+    }
+    
+
+
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #parcdonate img{
+      max-width: 300px;
+    }
+
+    #parcdonate .right1{
+      margin-top: 20px;
+      max-width: 300px;
+    }
+    #parcdonate .right2{
+      margin-top: 20px;
+    }
+
+    #parcdonate .box .button{
+      margin-top: 20px;
+      background-color: #FED200;
+      color: black;
+      border-radius: 30px;
+      padding: 20px 30px 20px 30px;
+      
+      font-family: sans-serif;
+      font-size: 20px;
+      font-weight: bolder;
+      cursor: pointer;
+      background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,88,33,1) 0%, rgba(254,210,0,1) 100%);
+    }
+
+}
