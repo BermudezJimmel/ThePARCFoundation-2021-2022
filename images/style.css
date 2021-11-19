@@ -10778,13 +10778,24 @@ div.ppt {
  
 }
 
-#parcdonate img{
+#parcdonate .box1{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 50px;
+ 
+}
+
+#parcdonate .left1{
   max-width: 500px;
 }
 
 #parcdonate .right1{
   margin-top: 100px;
   max-width: 600px;
+  margin-bottom: 10px;
+  margin-right: 250px;
 }
 
 #parcdonate .right2{
@@ -10792,11 +10803,12 @@ div.ppt {
 }
 
 #parcdonate .box .button{
-  margin-top: 20px;
+  margin: 0px 250px 0px 0px;
   background-color: #FED200;
   color: black;
   border-radius: 50px;
   padding: 25px 35px 25px 35px;
+ 
   
   font-family: sans-serif;
   font-size: 22px;
@@ -10806,14 +10818,24 @@ div.ppt {
 background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,88,33,1) 0%, rgba(254,210,0,1) 100%);
 }
 
+#parcdonate .box p{
+  padding: 0px 250px 0px 0px;
+}
+
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
-    #parcdonate img{
+    #parcdonate .left1{
       max-width: 300px;
     }
+    #parcdonate .box p{
+      display: none;
+    }
+    
+
+
 
     #parcdonate .right1{
       
@@ -10837,6 +10859,8 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,88,33,1) 0%, r
       background: rgb(0,212,255);
     background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,88,33,1) 0%, rgba(254,210,0,1) 100%);
     }
+
+  
     
 
 
@@ -10848,7 +10872,7 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,88,33,1) 0%, r
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-    #parcdonate img{
+    #parcdonate .left1{
       max-width: 300px;
     }
 
@@ -10859,6 +10883,11 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,88,33,1) 0%, r
     #parcdonate .right2{
       margin-top: 20px;
     }
+
+    #parcdonate .box p{
+      display: none;
+    }
+    
 
     #parcdonate .box .button{
       margin-top: 20px;
@@ -10873,6 +10902,25 @@ background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,88,33,1) 0%, r
       cursor: pointer;
       background: rgb(0,212,255);
     background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(255,88,33,1) 0%, rgba(254,210,0,1) 100%);
+    }
+
+    #parcdonate .box1{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      
+     
+    }
+
+    #parcdonate .right1{
+      margin-top: 20px;
+      max-width: 300px;
+      margin-bottom: 0px;
+     
+    }
+
+    #parcdonate {
+      margin-left: 20px;
     }
 
 }
